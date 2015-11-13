@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Yuhui Huang" date="2015-11-11T08:50:02.342Z" timestamp="2015-11-11T08:50:02.342Z">
+    <change idref="t31" to="t23" to-position="1" resolved="yes">
+      <change idref="t31" attribute="noEarlierThanConstraintDate" type="date" to="2015-11-11T01:00:00.000Z"/>
+      <change idref="t31" attribute="title" type="string" to="友盟事件统计"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-11T09:03:18.974Z" timestamp="2015-11-11T09:03:18.974Z">
+    <change idref="t31" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t31" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t31" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t31" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t31" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t31" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t31" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t31" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t31" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t31" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t31" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t31" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t32" to="t31" to-position="0" resolved="yes">
+      <change idref="t32" attribute="noEarlierThanConstraintDate" type="date" to="2015-11-11T01:00:00.000Z"/>
+      <change idref="t32" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmMTMwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjtcZjFcZm5pbFxmY2hhcnNldDAgSGVsdmV0aWNhTmV1ZTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjQgXGNmMiBcJ2QwXCdjMlwnY2VcJ2M1XCdjMVwnZDBcJ2IxXCdlZFwnZDJcJ2IzClxmMSBcCgpcZjAgXCdjZFwnYThcJ2QxXCdiNlwnYzJcJ2JjXCdiMlwnYTJcJ2QzXCdkMVwnZDJcJ2IzClxmMSBcCgpcZjAgXCdjN1wnYzBcJ2M3XCdhZVwnZDJcJ2IzClxmMSBcCgpcZjAgXCdkMFwnYTFcJ2JiXCdmZFwnYjdcJ2Q2XCdkM1wnYWVcJ2I0XCdmM1wnYmRcJ2IxXCdkMlwnYjMKXGYxIFwKClxmMCBcJ2JiXCdmZFwnYjdcJ2Q2XCdiOVwnZTZcJ2Q0XCdmMlwnZDJcJ2IzfQ=="/>
+      <change idref="t32" attribute="title" type="string" to="黄玉辉"/>
+    </change>
+    <change idref="t49" to="t31" to-position="1" resolved="yes">
+      <change idref="t49" attribute="noEarlierThanConstraintDate" type="date" to="2015-11-11T01:00:00.000Z"/>
+      <change idref="t49" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmMTMwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjtcZjFcZm5pbFxmY2hhcnNldDAgSGVsdmV0aWNhTmV1ZTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjQgXGNmMiBcJ2NhXCdkNVwnYjJcJ2Q4XCdiY1wnZDBcJ2QyXCdiMwpcZjEgXAoKXGYwIFwnZDFcJ2ExXCdkNFwnZjFcJ2NjXCdlMVwnY2ZcJ2Q2XCdiN1wnYmRcJ2NhXCdiZFwnZDJcJ2IzClxmMSBcCgpcZjAgXCdjY1wnZTFcJ2NmXCdkNlwnYzlcJ2VhXCdjN1wnZWJcJ2IzXCdjOVwnYjlcJ2E2XCdkMlwnYjMKXGYxIFwKClxmMCBcJ2NjXCdlMVwnY2ZcJ2Q2XCdjZlwnZWFcJ2M3XCdlOVwnZDJcJ2IzfQ=="/>
+      <change idref="t49" attribute="title" type="string" to="林思敏"/>
+    </change>
+    <change idref="t50" to="t31" to-position="2" resolved="yes">
+      <change idref="t50" attribute="noEarlierThanConstraintDate" type="date" to="2015-11-11T01:00:00.000Z"/>
+      <change idref="t50" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmMTMwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjtcZjFcZm5pbFxmY2hhcnNldDAgSGVsdmV0aWNhTmV1ZTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjQgXGNmMiBcJ2QwXCdjMlwnY2VcJ2M1XCdjZlwnZWFcJ2M3XCdlOVwnZDJcJ2IzClxmMSBcCgpcZjAgXCdiMlwnYTJcJ2QzXCdkMVwnZDJcJ2IzClxmMSBcCgpcZjAgXCdiZFwnYjFcJ2M2XCdiN1wnY2ZcJ2VhXCdjN1wnZTlcJ2QyXCdiMwpcZjEgXAoKXGYwIFwnZDZcJ2QwXCdiZFwnYjFcJ2MzXCdmYlwnYjVcJ2E1XCdkMlwnYjN9"/>
+      <change idref="t50" attribute="title" type="string" to="刘云鹏"/>
+    </change>
+    <change idref="t51" to="t31" to-position="3" resolved="yes">
+      <change idref="t51" attribute="noEarlierThanConstraintDate" type="date" to="2015-11-11T01:00:00.000Z"/>
+      <change idref="t51" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmMTMwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjtcZjFcZm5pbFxmY2hhcnNldDAgSGVsdmV0aWNhTmV1ZTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjQgXGNmMiBcJ2QwXCdjMlwnY2VcJ2M1XCdkNlwnYjFcJ2IyXCdhNVwnZDJcJ2IzClxmMSBcCgpcZjAgXCdkMFwnYzJcJ2NlXCdjNVwnZDdcJ2E4XCdjY1wnZTJcJ2QyXCdiMwpcZjEgXAoKXGYwIFwnZDBcJ2MyXCdjZVwnYzVcJ2NiXCdkMVwnY2JcJ2Y3XCdkMlwnYjMKXGYxIFwKClxmMCBcJ2NiXCdkMVwnY2JcJ2Y3XCdiZFwnZTFcJ2I5XCdmYlwnZDJcJ2IzClxmMSBcCgpcZjAgXCdjMFwnZjFcJ2M2XCdiN1wnYjZcJ2QyXCdiYlwnYmJcJ2QyXCdiMwpcZjEgXAoKXGYwIFwnYjZcJ2QyXCdiYlwnYmJcJ2IzXCdjOVwnYjlcJ2E2XCdkMlwnYjMKXGYxIFwKClxmMCBcJ2M5XCdjY1wnYzZcJ2I3XCdjZlwnZWFcJ2M3XCdlOVwnZDJcJ2IzClxmMSBcCgpcZjAgXCdiNlwnZDJcJ2JiXCdiYlwnYmNcJ2M3XCdjMlwnYmNcJ2QyXCdiMwpcZjEgXAoKXGYwIFwnYmRcJ2IxXCdjOFwnYWZcJ2NmXCdlYVwnYzdcJ2U5XCdkMlwnYjMKXGYxIFwKClxmMCBcJ2I2XCdkMlwnYmJcJ2JiXCdjZlwnZWFcJ2M3XCdlOVwnZDJcJ2IzClxmMSBcCgpcZjAgXCdjZVwnZDJcJ2QyXCdiMwpcZjEgXAoKXGYwIFwnY2ZcJ2I1XCdjZFwnYjNcJ2M5XCdlOFwnZDZcJ2MzXCdkMlwnYjMKXGYxIFwKClxmMCBcJ2I1XCdjN1wnYzJcJ2JjXCdkMlwnYjN9"/>
+      <change idref="t51" attribute="title" type="string" to="陈新存"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-11T09:08:42.491Z" timestamp="2015-11-11T09:08:42.491Z">
+    <change idref="t32" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t49" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+    <change idref="t50" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+    <change idref="t51" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-11T09:10:34.480Z" timestamp="2015-11-11T09:10:34.480Z">
+    <change idref="t32" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:36:50.923Z" timestamp="2015-11-12T07:36:50.923Z">
+    <change idref="t32" attribute="internalPrerequisitesString" type="string" to="19FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:37:15.336Z" timestamp="2015-11-12T07:37:15.336Z">
+    <change idref="t18" attribute="internalEffortDone" type="real" from="0" to="81000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:37:30.730Z" timestamp="2015-11-12T07:37:30.730Z">
+    <change idref="t32" attribute="internalEffortDone" type="real" from="0" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:38:19.368Z" timestamp="2015-11-12T07:38:19.368Z">
+    <change idref="t49" attribute="internalPrerequisitesString" type="string" to="29FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:38:25.951Z" timestamp="2015-11-12T07:38:25.951Z">
+    <change idref="t49" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:38:30.535Z" timestamp="2015-11-12T07:38:30.535Z">
+    <change idref="t49" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:39:11.732Z" timestamp="2015-11-12T07:39:11.732Z">
+    <change idref="t29" attribute="title" type="string" from="解决滑动删除交互问题" to="修改收藏列表删除交互" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:39:17.075Z" timestamp="2015-11-12T07:39:17.075Z">
+    <change idref="t29" attribute="internalEffortDone" type="real" from="0" to="135000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:39:56.537Z" timestamp="2015-11-12T07:39:56.537Z">
+    <change idref="t51" attribute="internalPrerequisitesString" type="string" to="30FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:40:10.641Z" timestamp="2015-11-12T07:40:10.641Z">
+    <change idref="t51" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:40:34.457Z" timestamp="2015-11-12T07:40:34.457Z">
+    <change idref="t15" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
+    <change idref="t17" attribute="internalEffortDone" type="real" from="0" to="13500" resolved="yes"/>
+    <change idref="t30" attribute="internalEffortDone" type="real" from="0" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:41:08.258Z" timestamp="2015-11-12T07:41:08.258Z">
+    <change idref="t50" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t50" attribute="internalPrerequisitesString" type="string" to="26FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:41:38.599Z" timestamp="2015-11-12T07:41:38.599Z">
+    <change idref="t10" attribute="internalEffortDone" type="real" from="0" to="13500" resolved="yes"/>
+    <change idref="t12" attribute="internalEffortDone" type="real" from="0" to="13500" resolved="yes"/>
+    <change idref="t13" attribute="internalEffortDone" type="real" from="0" to="54000" resolved="yes"/>
+    <change idref="t20" attribute="internalEffortDone" type="real" from="0" to="13500" resolved="yes"/>
+    <change idref="t24" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
+    <change idref="t26" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:43:24.143Z" timestamp="2015-11-12T07:43:24.143Z">
+    <change idref="t10" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t12" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t13" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t15" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t17" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t18" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t19" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t20" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t21" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t24" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t25" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t26" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t27" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t29" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        catalog = System;
+        name = textColor;
+    };
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t30" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t32" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t49" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-11-12T07:45:48.532Z" timestamp="2015-11-12T07:45:48.532Z">
+    <change idref="t51" attribute="noEarlierThanConstraintDate" type="date" from="2015-11-11T01:00:00.000Z" to="2015-11-13T01:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+</changelog>

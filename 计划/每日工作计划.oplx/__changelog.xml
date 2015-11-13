@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Yuhui Huang" date="2015-09-10T05:02:42.311Z" timestamp="2015-09-10T05:02:42.311Z">
+    <change idref="t68" attribute="internalEffortDone" type="real" from="0" to="28800"/>
+    <change idref="t71" attribute="isSplittableTask" type="real" from="1" to="0"/>
+    <change idref="t71" attribute="internalPrerequisitesString" type="string" from="75FS, 76FS" to="75FS, 76FS, 78SF"/>
+    <change idref="t71" attribute="taskType" type="real" from="0" to="3"/>
+    <change idref="t71" attribute="effort" type="real" from="28800" to="0"/>
+    <change idref="t71" attribute="internalEffortDone" type="real" from="23340" to="0"/>
+    <change idref="t69" from="t76" from-position="1">
+      <change idref="t69" attribute="resourceLeveledDate" type="date" to="2015-09-10T04:04:02.774Z"/>
+      <change idref="t69" attribute="title" type="string" to="Task 2"/>
+    </change>
+    <change idref="t77" attribute="internalEffortDone" type="real" from="0" to="28800"/>
+    <change idref="t79" attribute="internalEffortDone" type="real" from="0" to="28800"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:29:57.411Z" timestamp="2015-10-10T02:29:57.411Z">
+    <change idref="t218" attribute="noEarlierThanConstraintDate" type="date" from="2015-10-12T01:00:00.000Z" to="2015-10-10T01:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:30:23.602Z" timestamp="2015-10-10T02:30:23.602Z">
+    <change idref="t219" to="t148" to-position="1" resolved="yes">
+      <change idref="t219" attribute="noEarlierThanConstraintDate" type="date" to="2015-10-09T16:00:00.000Z"/>
+      <change idref="t219" attribute="title" type="string" to="订阅号"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:30:58.687Z" timestamp="2015-10-10T02:30:58.687Z">
+    <change idref="t219" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t219" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t219" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t219" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t219" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t219" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t219" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t219" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t219" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t219" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t219" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t219" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t220" to="t219" to-position="0" resolved="yes">
+      <change idref="t220" attribute="noEarlierThanConstraintDate" type="date" to="2015-10-09T16:00:00.000Z"/>
+      <change idref="t220" attribute="title" type="string" to="新闻列表"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:31:13.945Z" timestamp="2015-10-10T02:31:13.945Z">
+    <change idref="t219" attribute="internalPrerequisitesString" type="string" to="218FS" resolved="yes"/>
+    <change idref="t221" to="t219" to-position="1" resolved="yes">
+      <change idref="t221" attribute="noEarlierThanConstraintDate" type="date" to="2015-10-09T16:00:00.000Z"/>
+      <change idref="t221" attribute="title" type="string" to="新闻列表2"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:31:38.379Z" timestamp="2015-10-10T02:31:38.379Z">
+    <change idref="t220" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t221" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t221" attribute="internalPrerequisitesString" type="string" to="220FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:32:10.319Z" timestamp="2015-10-10T02:32:10.319Z">
+    <change idref="t220" attribute="title" type="string" from="新闻列表" to="新闻列表1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:32:34.023Z" timestamp="2015-10-10T02:32:34.023Z">
+    <change idref="t220" attribute="effort" type="real" from="28800" to="10800" resolved="yes"/>
+    <change idref="t220" attribute="noEarlierThanConstraintDate" type="date" from="2015-10-09T16:00:00.000Z" to="2015-10-14T02:00:00.000Z" resolved="yes"/>
+    <change idref="t221" attribute="effort" type="real" from="28800" to="16200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:32:41.108Z" timestamp="2015-10-10T02:32:41.108Z">
+    <change idref="t220" attribute="noEarlierThanConstraintDate" type="date" from="2015-10-14T02:00:00.000Z" to="2015-10-14T01:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:38:29.385Z" timestamp="2015-10-10T02:38:29.385Z">
+    <change idref="t219" from="t148" from-position="1" to="t148" to-position="0" resolved="yes"/>
+    <change idref="t218" attribute="internalPrerequisitesString" type="string" to="219FS" resolved="yes"/>
+    <change idref="t219" attribute="internalPrerequisitesString" type="string" from="218FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:39:06.040Z" timestamp="2015-10-10T02:39:06.040Z">
+    <change idref="t218" attribute="effort" type="real" from="3600" to="1800" resolved="yes"/>
+    <change idref="t220" attribute="title" type="string" from="新闻列表1" to="新闻列表" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:39:21.047Z" timestamp="2015-10-10T02:39:21.047Z">
+    <change idref="t218" attribute="internalPrerequisitesString" type="string" from="219FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:39:38.702Z" timestamp="2015-10-10T02:39:38.702Z">
+    <change idref="t218" attribute="noEarlierThanConstraintDate" type="date" from="2015-10-10T01:00:00.000Z" to="2015-10-10T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:40:23.309Z" timestamp="2015-10-10T02:40:23.309Z">
+    <change idref="t218" from="t148" from-position="1" resolved="yes">
+      <change idref="t218" attribute="effort" type="real" from="28800" to="1800"/>
+      <change idref="t218" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t218" attribute="noEarlierThanConstraintDate" type="date" to="2015-10-10T09:00:00.000Z"/>
+      <change idref="t218" attribute="title" type="string" to="工作日报审核"/>
+    </change>
+    <change idref="t221" from="t219" from-position="1" resolved="yes">
+      <change idref="t221" attribute="effort" type="real" from="28800" to="16200"/>
+      <change idref="t221" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t221" attribute="internalPrerequisitesString" type="string" to="220FS"/>
+      <change idref="t221" attribute="noEarlierThanConstraintDate" type="date" to="2015-10-09T16:00:00.000Z"/>
+      <change idref="t221" attribute="title" type="string" to="新闻列表2"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:40:37.572Z" timestamp="2015-10-10T02:40:37.572Z">
+    <change idref="t220" attribute="title" type="string" from="新闻列表" to="订阅频道新闻列表" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-10T02:41:30.609Z" timestamp="2015-10-10T02:41:30.609Z">
+    <change idref="t220" attribute="effort" type="real" from="10800" to="16200" resolved="yes"/>
+    <change idref="t220" attribute="noEarlierThanConstraintDate" type="date" from="2015-10-14T01:00:00.000Z" to="2015-10-10T03:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-12T01:34:34.782Z" timestamp="2015-10-12T01:34:34.782Z">
+    <change idref="t148" attribute="title" type="string" from="2015年10月10日 星期六" to="2015年10月12日 星期一" resolved="yes"/>
+    <change idref="t219" from="t148" from-position="0" resolved="yes">
+      <change idref="t219" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t219" attribute="noEarlierThanConstraintDate" type="date" to="2015-10-09T16:00:00.000Z"/>
+      <change idref="t219" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t219" attribute="title" type="string" to="订阅号"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-12T01:36:43.766Z" timestamp="2015-10-12T01:36:43.766Z">
+    <change idref="t223" to="t148" to-position="0" resolved="yes">
+      <change idref="t223" attribute="noEarlierThanConstraintDate" type="date" to="2015-10-12T01:00:00.000Z"/>
+      <change idref="t223" attribute="title" type="string" to="工作日报审核"/>
+    </change>
+    <change idref="t224" to="t148" to-position="1" resolved="yes">
+      <change idref="t224" attribute="noEarlierThanConstraintDate" type="date" to="2015-10-12T01:00:00.000Z"/>
+      <change idref="t224" attribute="title" type="string" to="工作日报填写"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-12T01:38:19.182Z" timestamp="2015-10-12T01:38:19.182Z">
+    <change idref="t226" to="t148" to-position="1" resolved="yes">
+      <change idref="t226" attribute="noEarlierThanConstraintDate" type="date" to="2015-10-12T01:00:00.000Z"/>
+      <change idref="t226" attribute="title" type="string" to="活动页面登录"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-12T01:38:43.802Z" timestamp="2015-10-12T01:38:43.802Z">
+    <change idref="t227" to="t148" to-position="2" resolved="yes">
+      <change idref="t227" attribute="noEarlierThanConstraintDate" type="date" to="2015-10-12T01:00:00.000Z"/>
+      <change idref="t227" attribute="title" type="string" to="友盟崩溃报告"/>
+    </change>
+    <change idref="t228" to="t148" to-position="3" resolved="yes">
+      <change idref="t228" attribute="noEarlierThanConstraintDate" type="date" to="2015-10-12T01:00:00.000Z"/>
+      <change idref="t228" attribute="title" type="string" to="禅道Bug报告"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-12T01:39:56.355Z" timestamp="2015-10-12T01:39:56.355Z">
+    <change idref="t223" attribute="effort" type="real" from="28800" to="1800" resolved="yes"/>
+    <change idref="t223" attribute="noEarlierThanConstraintDate" type="date" from="2015-10-12T01:00:00.000Z" to="2015-10-12T01:45:00.000Z" resolved="yes"/>
+    <change idref="t226" attribute="effort" type="real" from="28800" to="7200" resolved="yes"/>
+    <change idref="t226" attribute="internalPrerequisitesString" type="string" to="223FS" resolved="yes"/>
+    <change idref="t227" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+    <change idref="t227" attribute="internalPrerequisitesString" type="string" to="226FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-12T01:40:22.373Z" timestamp="2015-10-12T01:40:22.373Z">
+    <change idref="t228" attribute="effort" type="real" from="28800" to="11700" resolved="yes"/>
+    <change idref="t228" attribute="internalPrerequisitesString" type="string" to="227FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-12T01:40:26.995Z" timestamp="2015-10-12T01:40:26.995Z">
+    <change idref="t228" attribute="effort" type="real" from="11700" to="10800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-12T01:40:53.169Z" timestamp="2015-10-12T01:40:53.169Z">
+    <change idref="t224" attribute="internalPrerequisitesString" type="string" to="228FS" resolved="yes"/>
+    <change idref="t228" attribute="effort" type="real" from="10800" to="9900" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-12T02:27:35.001Z" timestamp="2015-10-12T02:27:35.001Z">
+    <change idref="t223" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmMTEwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjtcZjFcZm5pbFxmY2hhcnNldDAgSGVsdmV0aWNhTmV1ZTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2ExXCdiZQpcZjEgQ29kZSBSZXZpZXcKXGYwIFwnYTFcJ2JmXCdjMVwnZDZcJ2NiXCdiY1wnYzNcJ2Y0fQ==" resolved="yes"/>
+    <change idref="t223" attribute="internalEffortDone" type="real" from="0" to="1800" resolved="yes"/>
+    <change idref="t226" attribute="internalPrerequisitesString" type="string" from="223FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-12T02:28:46.320Z" timestamp="2015-10-12T02:28:46.320Z">
+    <change idref="t226" attribute="noEarlierThanConstraintDate" type="date" from="2015-10-12T01:00:00.000Z" to="2015-10-12T02:45:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-10-12T02:28:59.919Z" timestamp="2015-10-12T02:28:59.919Z">
+    <change idref="t224" attribute="effort" type="real" from="28800" to="900" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="Yuhui Huang" date="2015-10-10T02:29:30.816Z" timestamp="2015-10-10T02:29:30.816Z">
+    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDCiAQrUAgMEBQYHCAlSZWRSc3RSZXRSc2QRFRYiRv0gACJHLEQAERUV1AIDBAUGCwwJIkc92AAiR30gAAgLFBcaHSAjKC0wOT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2015-10-10T02:32:56.052Z" timestamp="2015-10-10T02:32:56.052Z">
+    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCiAQrUAgMEBQYHCAlSZWRSc3RSZXRSc2QRFRYiRv0gACJHLEQAERUV1AIDBAUGCwwJIkc92AAiR30gAAgLFBcaHSAjKC0wOT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" to="YnBsaXN0MDCiAQrUAgMEBQYHCAlSZWRSc3RSZXRSc2QRFRYiRv0gACJHKMAAERUV1AIDBAUGCwwJIkc92AAiR30gAAgLFBcaHSAjKC0wOT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2015-10-10T02:40:23.309Z" timestamp="2015-10-10T02:40:23.309Z">
+    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCiAQrUAgMEBQYHCAlSZWRSc3RSZXRSc2QRFRYiRv0gACJHKMAAERUV1AIDBAUGCwwJIkc92AAiR30gAAgLFBcaHSAjKC0wOT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" to="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2015-10-10T02:41:57.466Z" timestamp="2015-10-10T02:41:57.466Z">
+    <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFRMiRv0gACJHKMAA1AIDBAUGCgsGIkc92AAiR30gAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" to="YnBsaXN0MDCjAQkM1AIDBAUGBwgGUmVkUnN0UmV0UnNkERUTIkb9IAAiRyjAANQCAwQFBgoLBiJHPdgAIkd9IADUAgMEBQYNDgYiR4kcACJHk6gACAwVGBseISQpLjc8QUpPAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAFQ=" resolved="yes"/>
+  </resource-change-set>
+</changelog>

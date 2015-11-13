@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <window x="55" y="0" w="1385" h="877">
+    <editing-scenario>cHqubXCdmW0</editing-scenario>
+    <view>task</view>
+    <change-tracking/>
+    <draw-folded/>
+    <status-display>extended</status-display>
+    <task-view>
+      <split-view-divider-position>968</split-view-divider-position>
+      <outline x="0" y="40" w="968" h="741">
+        <column name="Violations" width="20"/>
+        <column name="Notes" width="20"/>
+        <column name="Title" width="263"/>
+        <column name="Priority" width="54"/>
+        <column name="Assigned" width="69"/>
+        <column name="Time" width="68"/>
+        <column name="Effort" width="91"/>
+        <column name="Start" width="120"/>
+        <column name="End" width="117"/>
+        <column name="Status" width="20"/>
+        <column name="%Done" width="82"/>
+        <column name="Prerequisites" width="87"/>
+        <column name="Dependents" width="79"/>
+        <expanded-items idrefs="t9 t4 t23 t7 t22 t8 t28 t31 t6"/>
+        <expanded-item-notes idrefs="t50 t49 t51 t32"/>
+      </outline>
+      <gantt-view x="0" y="40" w="401" h="741">
+        <view-mode>actual</view-mode>
+        <dependency-lines/>
+        <constraints/>
+        <show-project-end/>
+        <task-bar-label task-type="group" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <scale scale-name="Automatic" full-day-width="88.1188">
+          <selected/>
+        </scale>
+        <scale scale-name="Day" full-day-width="1215"/>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Year" full-day-width="2.3625"/>
+        <offtime-display>none</offtime-display>
+      </gantt-view>
+    </task-view>
+    <resource-view>
+      <split-view-divider-position>306</split-view-divider-position>
+      <outline x="0" y="0" w="306" h="756">
+        <column name="Notes" width="20"/>
+        <column name="Type" width="49"/>
+        <column name="Resource" width="135"/>
+        <column name="#" width="75"/>
+        <selected-items-at-filter-time idrefs="r4 r3 r2"/>
+      </outline>
+      <timeline x="38" y="0" w="1050" h="756">
+        <offtime-display>none</offtime-display>
+        <show-project-end/>
+        <task-bar-label task-type="group" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="right">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="right">
+          <key/>
+        </task-bar-label>
+        <scale scale-name="Automatic" full-day-width="300">
+          <selected/>
+        </scale>
+        <scale scale-name="Day" full-day-width="1215"/>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Year" full-day-width="2.3625"/>
+      </timeline>
+    </resource-view>
+    <calendar>
+      <split-view-divider-position>290</split-view-divider-position>
+      <outline x="0" y="0" w="275" h="711">
+        <column name="Notes" width="20"/>
+        <column name="Type" width="49"/>
+        <column name="Resource" width="139"/>
+        <column name="Custom Work Week" width="20"/>
+        <column name="Schedule Exception" width="20"/>
+      </outline>
+    </calendar>
+  </window>
+  <project>
+    <next-task-id>52</next-task-id>
+    <next-resource-id>5</next-resource-id>
+    <scenario id="cHqubXCdmW0" name="Actual" filename="Actual.xml"/>
+    <date-display dates="true" times="true" seconds="false"/>
+    <numbering-style>wbs</numbering-style>
+    <critical-path-slack>0</critical-path-slack>
+    <currency-format>￥ 1,234.56</currency-format>
+    <duration-format hours-per-day="7.5" hours-per-week="37.5" hours-per-month="150" hours-per-year="1800" days="true"/>
+    <effort-format hours-per-day="7.5" hours-per-week="37.5" hours-per-month="150" hours-per-year="1800" days="true"/>
+    <base-style>
+      <style/>
+    </base-style>
+    <column-title-style>
+      <style>
+        <value key="font-name">HelveticaNeue-Medium</value>
+        <value key="font-size">12</value>
+        <value key="font-weight">6</value>
+        <value key="paragraph-alignment">center</value>
+      </style>
+    </column-title-style>
+    <note-style>
+      <style>
+        <value key="font-fill">
+          <color w="0.334677"/>
+        </value>
+        <value key="font-size">12</value>
+      </style>
+    </note-style>
+    <standard-task-style>
+      <style/>
+    </standard-task-style>
+    <overdue-task-style>
+      <style/>
+    </overdue-task-style>
+    <completed-task-style>
+      <style/>
+    </completed-task-style>
+    <group-task-style>
+      <style>
+        <value key="font-name">HelveticaNeue-Medium</value>
+        <value key="font-weight">6</value>
+      </style>
+    </group-task-style>
+    <milestone-task-style>
+      <style/>
+    </milestone-task-style>
+    <resource-style>
+      <style/>
+    </resource-style>
+    <not-editable-style>
+      <style>
+        <value key="font-fill">
+          <color w="0.334677"/>
+        </value>
+      </style>
+    </not-editable-style>
+<!-- completedPercentage < 100 -->
+    <filter name="Last Used" flat="0" id="ddTKYnxRg2t">YnBsaXN0MDDUAQIDBAUGY2RYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMTU6Oz5CRktMT1VaXmBVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy0vMFxOU0V4cHJlc3Npb25YTlNPYmplY3TSEAsyNKEzgAmADNMLHzY3ODlZTlNLZXlQYXRogAsQCoAKXxATY29tcGxldGVkUGVyY2VudGFnZdIrLDw9XxAcTlNLZXlQYXRoU3BlY2lmaWVyRXhwcmVzc2lvbqM8LzDSKyw/QF5OU011dGFibGVBcnJheaM/QTBXTlNBcnJhedIrLENEXxATTlNLZXlQYXRoRXhwcmVzc2lvbqRDRS8wXxAUTlNGdW5jdGlvbkV4cHJlc3Npb27TRx8LSElKXxAPTlNDb25zdGFudFZhbHVlgA8QAIAQEGTSKyxNTl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jTS8w1QtQUVJTVElJSUlaTlNNb2RpZmllcllOU1ZhcmlhbnRZTlNPcHRpb25zXk5TT3BlcmF0b3JUeXBlgBLSKyxWV18QHU5TQ29tcGFyaXNvblByZWRpY2F0ZU9wZXJhdG9yo1hZMF8QHU5TQ29tcGFyaXNvblByZWRpY2F0ZU9wZXJhdG9yXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLFtcXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo1tdMFtOU1ByZWRpY2F0ZdIrLEFfokEw0issYWJfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2FdMF8QD05TS2V5ZWRBcmNoaXZlctFlZlRyb290gAEACAARABoAIwAtADIANwBQAFYAXQB3AIkAkACSAJQAlgCbAKYAqACqAKwAtQDJANwA8gD0APYA+AD6AQUBDwEeATEBPQE/AUEBQwFFAUcBVAFZAVsBXQFiAW0BdgGJAY0BmgGjAagBqgGsAa4BtQG/AcEBwwHFAdsB4AH/AgMCCAIXAhsCIwIoAj4CQwJaAmECcwJ1AncCeQJ7AoACnAKgAqsCtgLAAsoC2QLbAuADAAMEAyQDOgM/A1cDWwNnA2wDbwN0A4oDjgOgA6MDqAAAAAAAAAIBAAAAAAAAAGcAAAAAAAAAAAAAAAAAAAOq</filter>
+<!-- ANY assignedResources.name == "刘云鹏" -->
+    <filter name="刘云鹏" flat="0" id="cX_8HboVNCE">YnBsaXN0MDDUAQIDBAUGa2xYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFwcIDxQcJicqMTU6Oz5CRktPU1ZeYmZoVSRudWxs0wkKCwwNDl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxACgAKAFtIQCxETWk5TLm9iamVjdHOhEoADgBXUCxUWFxgZGhtfEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBSADoAEgBLVHR4fIAshIiMkJVlOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADV8QEHZhbHVlRm9yS2V5UGF0aDrSHwsoKRABgAfSKywtLlokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMtLzBcTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMjShM4AJgAzTCx82Nzg5WU5TS2V5UGF0aIALEAqACl8QFmFzc2lnbmVkUmVzb3VyY2VzLm5hbWXSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEdILTE1OWU5TLnN0cmluZ4AQY1IYTpGeT9IrLFBRXxAPTlNNdXRhYmxlU3RyaW5no1BSMFhOU1N0cmluZ9IrLFRVXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNULzDVC1dYWVpbDFxJXVpOU01vZGlmaWVyWE5TTmVnYXRlWU5TT3B0aW9uc15OU09wZXJhdG9yVHlwZYATCBAE0issX2BfEBtOU0VxdWFsaXR5UHJlZGljYXRlT3BlcmF0b3KjX2EwXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLGNkXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2NlMFtOU1ByZWRpY2F0ZdIrLEFnokEw0issaWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2llMF8QD05TS2V5ZWRBcmNoaXZlctFtblRyb290gAEACAARABoAIwAtADIANwBRAFcAXgB4AIoAkQCTAJUAlwCcAKcAqQCrAK0AtgDKAN0A8wD1APcA+QD7AQYBEAEfATIBPgFAAUIBRAFGAUgBWwFgAWIBZAFpAXQBfQGQAZQBoQGqAa8BsQGzAbUBvAHGAcgBygHMAeUB6gIJAg0CEgIhAiUCLQIyAkgCTQJkAmsCfQJ/AoECgwKIApIClAKbAqACsgK2Ar8CxALgAuQC7wL6AwMDDQMcAx4DHwMhAyYDRANIA14DYwN7A38DiwOQA5MDmAOuA7IDxAPHA8wAAAAAAAACAQAAAAAAAABvAAAAAAAAAAAAAAAAAAADzg==</filter>
+<!-- completedPercentage == 100 -->
+    <filter name="已完成" flat="0" id="ncoLPZB_hOo">YnBsaXN0MDDUAQIDBAUGZGVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMTU6Oz5CRktMT1dbX2FVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy0vMFxOU0V4cHJlc3Npb25YTlNPYmplY3TSEAsyNKEzgAmADNMLHzY3ODlZTlNLZXlQYXRogAsQCoAKXxATY29tcGxldGVkUGVyY2VudGFnZdIrLDw9XxAcTlNLZXlQYXRoU3BlY2lmaWVyRXhwcmVzc2lvbqM8LzDSKyw/QF5OU011dGFibGVBcnJheaM/QTBXTlNBcnJhedIrLENEXxATTlNLZXlQYXRoRXhwcmVzc2lvbqRDRS8wXxAUTlNGdW5jdGlvbkV4cHJlc3Npb27TRx8LSElKXxAPTlNDb25zdGFudFZhbHVlgA8QAIAQEGTSKyxNTl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jTS8w1QtQUVJTVElVSVZaTlNNb2RpZmllclhOU05lZ2F0ZVlOU09wdGlvbnNeTlNPcGVyYXRvclR5cGWAEggQBNIrLFhZXxAbTlNFcXVhbGl0eVByZWRpY2F0ZU9wZXJhdG9yo1haMF8QE05TUHJlZGljYXRlT3BlcmF0b3LSKyxcXV8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZaNcXjBbTlNQcmVkaWNhdGXSKyxBYKJBMNIrLGJjXxATTlNDb21wb3VuZFByZWRpY2F0ZaNiXjBfEA9OU0tleWVkQXJjaGl2ZXLRZmdUcm9vdIABAAgAEQAaACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYAmwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEFAQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAV0BYgFtAXYBiQGNAZoBowGoAaoBrAGuAbUBvwHBAcMBxQHbAeAB/wIDAggCFwIbAiMCKAI+AkMCWgJhAnMCdQJ3AnkCewKAApwCoAKrArYCvwLJAtgC2gLbAt0C4gMAAwQDGgMfAzcDOwNHA0wDTwNUA2oDbgOAA4MDiAAAAAAAAAIBAAAAAAAAAGgAAAAAAAAAAAAAAAAAAAOK</filter>
+<!-- completedPercentage < 100 -->
+    <filter name="未完成" flat="0" id="eHvwWUgt1pa">YnBsaXN0MDDUAQIDBAUGY2RYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMTU6Oz5CRktMT1VaXmBVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy0vMFxOU0V4cHJlc3Npb25YTlNPYmplY3TSEAsyNKEzgAmADNMLHzY3ODlZTlNLZXlQYXRogAsQCoAKXxATY29tcGxldGVkUGVyY2VudGFnZdIrLDw9XxAcTlNLZXlQYXRoU3BlY2lmaWVyRXhwcmVzc2lvbqM8LzDSKyw/QF5OU011dGFibGVBcnJheaM/QTBXTlNBcnJhedIrLENEXxATTlNLZXlQYXRoRXhwcmVzc2lvbqRDRS8wXxAUTlNGdW5jdGlvbkV4cHJlc3Npb27TRx8LSElKXxAPTlNDb25zdGFudFZhbHVlgA8QAIAQEGTSKyxNTl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jTS8w1QtQUVJTVElJSUlaTlNNb2RpZmllcllOU1ZhcmlhbnRZTlNPcHRpb25zXk5TT3BlcmF0b3JUeXBlgBLSKyxWV18QHU5TQ29tcGFyaXNvblByZWRpY2F0ZU9wZXJhdG9yo1hZMF8QHU5TQ29tcGFyaXNvblByZWRpY2F0ZU9wZXJhdG9yXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLFtcXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo1tdMFtOU1ByZWRpY2F0ZdIrLEFfokEw0issYWJfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2FdMF8QD05TS2V5ZWRBcmNoaXZlctFlZlRyb290gAEACAARABoAIwAtADIANwBQAFYAXQB3AIkAkACSAJQAlgCbAKYAqACqAKwAtQDJANwA8gD0APYA+AD6AQUBDwEeATEBPQE/AUEBQwFFAUcBVAFZAVsBXQFiAW0BdgGJAY0BmgGjAagBqgGsAa4BtQG/AcEBwwHFAdsB4AH/AgMCCAIXAhsCIwIoAj4CQwJaAmECcwJ1AncCeQJ7AoACnAKgAqsCtgLAAsoC2QLbAuADAAMEAyQDOgM/A1cDWwNnA2wDbwN0A4oDjgOgA6MDqAAAAAAAAAIBAAAAAAAAAGcAAAAAAAAAAAAAAAAAAAOq</filter>
+<!-- ANY assignedResources.name == "林思敏" -->
+    <filter name="林思敏" flat="0" id="c1iLQPq8sr4">YnBsaXN0MDDUAQIDBAUGa2xYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFwcIDxQcJicqMTU6Oz5CRktPU1ZeYmZoVSRudWxs0wkKCwwNDl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxACgAKAFtIQCxETWk5TLm9iamVjdHOhEoADgBXUCxUWFxgZGhtfEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBSADoAEgBLVHR4fIAshIiMkJVlOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADV8QEHZhbHVlRm9yS2V5UGF0aDrSHwsoKRABgAfSKywtLlokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMtLzBcTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMjShM4AJgAzTCx82Nzg5WU5TS2V5UGF0aIALEAqACl8QFmFzc2lnbmVkUmVzb3VyY2VzLm5hbWXSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEdILTE1OWU5TLnN0cmluZ4AQY2eXYB1lT9IrLFBRXxAPTlNNdXRhYmxlU3RyaW5no1BSMFhOU1N0cmluZ9IrLFRVXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNULzDVC1dYWVpbDFxJXVpOU01vZGlmaWVyWE5TTmVnYXRlWU5TT3B0aW9uc15OU09wZXJhdG9yVHlwZYATCBAE0issX2BfEBtOU0VxdWFsaXR5UHJlZGljYXRlT3BlcmF0b3KjX2EwXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLGNkXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2NlMFtOU1ByZWRpY2F0ZdIrLEFnokEw0issaWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2llMF8QD05TS2V5ZWRBcmNoaXZlctFtblRyb290gAEACAARABoAIwAtADIANwBRAFcAXgB4AIoAkQCTAJUAlwCcAKcAqQCrAK0AtgDKAN0A8wD1APcA+QD7AQYBEAEfATIBPgFAAUIBRAFGAUgBWwFgAWIBZAFpAXQBfQGQAZQBoQGqAa8BsQGzAbUBvAHGAcgBygHMAeUB6gIJAg0CEgIhAiUCLQIyAkgCTQJkAmsCfQJ/AoECgwKIApIClAKbAqACsgK2Ar8CxALgAuQC7wL6AwMDDQMcAx4DHwMhAyYDRANIA14DYwN7A38DiwOQA5MDmAOuA7IDxAPHA8wAAAAAAAACAQAAAAAAAABvAAAAAAAAAAAAAAAAAAADzg==</filter>
+<!-- ANY assignedResources.name == "陈新存" -->
+    <filter name="陈新存" flat="0" id="lsuagLr2Czu">YnBsaXN0MDDUAQIDBAUGa2xYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFwcIDxQcJicqMTU6Oz5CRktPU1ZeYmZoVSRudWxs0wkKCwwNDl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxACgAKAFtIQCxETWk5TLm9iamVjdHOhEoADgBXUCxUWFxgZGhtfEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBSADoAEgBLVHR4fIAshIiMkJVlOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADV8QEHZhbHVlRm9yS2V5UGF0aDrSHwsoKRABgAfSKywtLlokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMtLzBcTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMjShM4AJgAzTCx82Nzg5WU5TS2V5UGF0aIALEAqACl8QFmFzc2lnbmVkUmVzb3VyY2VzLm5hbWXSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEdILTE1OWU5TLnN0cmluZ4AQY5ZIZbBbWNIrLFBRXxAPTlNNdXRhYmxlU3RyaW5no1BSMFhOU1N0cmluZ9IrLFRVXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNULzDVC1dYWVpbDFxJXVpOU01vZGlmaWVyWE5TTmVnYXRlWU5TT3B0aW9uc15OU09wZXJhdG9yVHlwZYATCBAE0issX2BfEBtOU0VxdWFsaXR5UHJlZGljYXRlT3BlcmF0b3KjX2EwXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLGNkXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2NlMFtOU1ByZWRpY2F0ZdIrLEFnokEw0issaWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2llMF8QD05TS2V5ZWRBcmNoaXZlctFtblRyb290gAEACAARABoAIwAtADIANwBRAFcAXgB4AIoAkQCTAJUAlwCcAKcAqQCrAK0AtgDKAN0A8wD1APcA+QD7AQYBEAEfATIBPgFAAUIBRAFGAUgBWwFgAWIBZAFpAXQBfQGQAZQBoQGqAa8BsQGzAbUBvAHGAcgBygHMAeUB6gIJAg0CEgIhAiUCLQIyAkgCTQJkAmsCfQJ/AoECgwKIApIClAKbAqACsgK2Ar8CxALgAuQC7wL6AwMDDQMcAx4DHwMhAyYDRANIA14DYwN7A38DiwOQA5MDmAOuA7IDxAPHA8wAAAAAAAACAQAAAAAAAABvAAAAAAAAAAAAAAAAAAADzg==</filter>
+<!-- ANY assignedResources.name == "黄玉辉" -->
+    <filter name="黄玉辉" flat="0" id="e28AK9Xrd8e">YnBsaXN0MDDUAQIDBAUGa2xYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFwcIDxQcJicqMTU6Oz5CRktPU1ZeYmZoVSRudWxs0wkKCwwNDl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxACgAKAFtIQCxETWk5TLm9iamVjdHOhEoADgBXUCxUWFxgZGhtfEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBSADoAEgBLVHR4fIAshIiMkJVlOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADV8QEHZhbHVlRm9yS2V5UGF0aDrSHwsoKRABgAfSKywtLlokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMtLzBcTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMjShM4AJgAzTCx82Nzg5WU5TS2V5UGF0aIALEAqACl8QFmFzc2lnbmVkUmVzb3VyY2VzLm5hbWXSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEdILTE1OWU5TLnN0cmluZ4AQY57Ec4mPidIrLFBRXxAPTlNNdXRhYmxlU3RyaW5no1BSMFhOU1N0cmluZ9IrLFRVXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNULzDVC1dYWVpbDFxJXVpOU01vZGlmaWVyWE5TTmVnYXRlWU5TT3B0aW9uc15OU09wZXJhdG9yVHlwZYATCBAE0issX2BfEBtOU0VxdWFsaXR5UHJlZGljYXRlT3BlcmF0b3KjX2EwXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLGNkXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2NlMFtOU1ByZWRpY2F0ZdIrLEFnokEw0issaWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2llMF8QD05TS2V5ZWRBcmNoaXZlctFtblRyb290gAEACAARABoAIwAtADIANwBRAFcAXgB4AIoAkQCTAJUAlwCcAKcAqQCrAK0AtgDKAN0A8wD1APcA+QD7AQYBEAEfATIBPgFAAUIBRAFGAUgBWwFgAWIBZAFpAXQBfQGQAZQBoQGqAa8BsQGzAbUBvAHGAcgBygHMAeUB6gIJAg0CEgIhAiUCLQIyAkgCTQJkAmsCfQJ/AoECgwKIApIClAKbAqACsgK2Ar8CxALgAuQC7wL6AwMDDQMcAx4DHwMhAyYDRANIA14DYwN7A38DiwOQA5MDmAOuA7IDxAPHA8wAAAAAAAACAQAAAAAAAABvAAAAAAAAAAAAAAAAAAADzg==</filter>
+    <subscribe-refresh>0</subscribe-refresh>
+    <leveling>
+      <constrains-completion-date/>
+    </leveling>
+    <page-adornment>
+      <master-page-headers>
+        <header location="left">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPDocumentTitleVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </header>
+        <header location="right">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPPrintJobTimestampVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </header>
+        <footer location="left">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPDocumentFilenameVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </footer>
+        <footer location="right">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPPageNumberVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </footer>
+      </master-page-headers>
+    </page-adornment>
+  </project>
+</omniplan>

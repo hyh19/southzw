@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="cHqubXCdmW0">
+  <start-date>2015-11-04T01:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="32400" end-time="43200"/>
+        <time-span start-time="48600" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="32400" end-time="43200"/>
+        <time-span start-time="48600" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="32400" end-time="43200"/>
+        <time-span start-time="48600" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="32400" end-time="43200"/>
+        <time-span start-time="48600" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="32400" end-time="43200"/>
+        <time-span start-time="48600" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r1"/>
+    <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
+    <child-resource idref="r4"/>
+  </resource>
+  <resource id="r1">
+    <name>黄玉辉</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r2">
+    <name>陈新存</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r3">
+    <name>刘云鹏</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r4">
+    <name>林思敏</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t4"/>
+  </task>
+  <task id="t4">
+    <title>并读新闻 iOS 1.5.1 开发计划</title>
+    <type>group</type>
+    <child-task idref="t6"/>
+    <child-task idref="t7"/>
+    <child-task idref="t8"/>
+    <child-task idref="t9"/>
+    <child-task idref="t22"/>
+    <child-task idref="t28"/>
+    <child-task idref="t23"/>
+  </task>
+  <task id="t6">
+    <title>图评</title>
+    <type>group</type>
+    <child-task idref="t10"/>
+    <child-task idref="t12"/>
+    <child-task idref="t20"/>
+    <child-task idref="t13"/>
+  </task>
+  <task id="t7">
+    <title>直播</title>
+    <type>group</type>
+    <child-task idref="t15"/>
+    <child-task idref="t21"/>
+    <child-task idref="t17"/>
+    <child-task idref="t30"/>
+  </task>
+  <task id="t8">
+    <title>首页</title>
+    <type>group</type>
+    <child-task idref="t27"/>
+    <child-task idref="t18"/>
+  </task>
+  <task id="t9">
+    <title>广告</title>
+    <type>group</type>
+    <child-task idref="t19"/>
+  </task>
+  <task id="t10">
+    <title>增加系统设置开关</title>
+    <effort>13500</effort>
+    <effort-done>13500</effort-done>
+    <start-constraint-date>2015-11-06T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2015-11-06T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t12">
+    <title>修改大图图评交互</title>
+    <effort>13500</effort>
+    <effort-done>13500</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t10"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t13">
+    <title>增加图评自动刷新</title>
+    <effort>54000</effort>
+    <effort-done>54000</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t20"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t15">
+    <title>修改弹幕流显示的弹幕数量</title>
+    <effort>27000</effort>
+    <effort-done>27000</effort-done>
+    <start-constraint-date>2015-11-06T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2015-11-06T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t17">
+    <title>解决新评论没有插入弹幕流的问题</title>
+    <effort>13500</effort>
+    <effort-done>13500</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t21"/>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t18">
+    <title>修改新闻列表刷新机制</title>
+    <effort>81000</effort>
+    <effort-done>81000</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t25"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t19">
+    <title>增加互锋广告SDK</title>
+    <effort>135000</effort>
+    <effort-done>135000</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t18"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t20">
+    <title>修改图评背景颜色</title>
+    <effort>13500</effort>
+    <effort-done>13500</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t12"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t21">
+    <title>修改弹幕头像尺寸</title>
+    <effort>0</effort>
+    <effort-done>1</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t15"/>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t22">
+    <title>新闻详情</title>
+    <type>group</type>
+    <child-task idref="t24"/>
+    <child-task idref="t26"/>
+  </task>
+  <task id="t23">
+    <title>公共模块</title>
+    <type>group</type>
+    <child-task idref="t25"/>
+    <child-task idref="t31"/>
+  </task>
+  <task id="t24">
+    <title>修改评论输入控件</title>
+    <effort>27000</effort>
+    <effort-done>27000</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t13"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t25">
+    <title>修改加载动画</title>
+    <effort>27000</effort>
+    <effort-done>27000</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t27"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t26">
+    <title>解决正文与并友热读、并友热议灰色分隔区消失的问题</title>
+    <effort>27000</effort>
+    <effort-done>27000</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t24"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t27">
+    <title>修改新闻列表分隔线</title>
+    <effort>27000</effort>
+    <effort-done>27000</effort-done>
+    <start-constraint-date>2015-11-06T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-11-06T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t28">
+    <title>新闻收藏</title>
+    <type>group</type>
+    <child-task idref="t29"/>
+  </task>
+  <task id="t29">
+    <title>修改收藏列表删除交互</title>
+    <effort>135000</effort>
+    <effort-done>135000</effort-done>
+    <start-constraint-date>2015-11-06T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2015-11-06T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t30">
+    <title>修改弹幕打开和收起的交互动作</title>
+    <effort>54000</effort>
+    <effort-done>54000</effort-done>
+    <start-constraint-date>2015-11-05T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t17"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2015-11-05T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t31">
+    <title>友盟事件统计</title>
+    <type>group</type>
+    <start-constraint-date>2015-11-11T01:00:00.000Z</start-constraint-date>
+    <child-task idref="t32"/>
+    <child-task idref="t49"/>
+    <child-task idref="t50"/>
+    <child-task idref="t51"/>
+    <start-no-earlier-than>2015-11-11T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t32">
+    <title>黄玉辉</title>
+    <effort>54000</effort>
+    <effort-done>54000</effort-done>
+    <start-constraint-date>2015-11-11T01:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>新闻列表页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>通讯录并友页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>抢钱页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>小积分赢大奖页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>积分规则页</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t19"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-11-11T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t49">
+    <title>林思敏</title>
+    <effort>27000</effort>
+    <effort-done>27000</effort-done>
+    <start-constraint-date>2015-11-11T01:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>收藏夹页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>选择提现方式页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>提现申请成功页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>提现详情页</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t29"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2015-11-11T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t50">
+    <title>刘云鹏</title>
+    <effort>27000</effort>
+    <start-constraint-date>2015-11-11T01:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>新闻详情页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>并友页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>奖品详情页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>中奖名单页</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t26"/>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2015-11-11T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t51">
+    <title>陈新存</title>
+    <effort>27000</effort>
+    <start-constraint-date>2015-11-13T01:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>新闻直播页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>新闻专题页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>新闻搜索页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>搜索结果页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>礼品兑换页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>兑换成功页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>商品详情页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>兑换记录页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>奖券详情页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>兑换详情页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>我页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>系统设置页</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>登录页</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t30"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2015-11-13T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
