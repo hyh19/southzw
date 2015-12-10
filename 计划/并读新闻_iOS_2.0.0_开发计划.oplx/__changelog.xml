@@ -719,4 +719,913 @@
   <task-change-set user="Yuhui Huang" date="2015-12-10T03:58:36.359Z" timestamp="2015-12-10T03:58:36.359Z">
     <change idref="t92" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:07:28.014Z" timestamp="2015-12-10T06:07:28.014Z">
+    <change idref="t90" attribute="effort" type="real" from="28800" to="135000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:07:40.921Z" timestamp="2015-12-10T06:07:40.921Z">
+    <change idref="t91" attribute="effort" type="real" from="28800" to="135000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:07:48.400Z" timestamp="2015-12-10T06:07:48.400Z">
+    <change idref="t77" from="t72" from-position="2" to="t72" to-position="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:08:25.377Z" timestamp="2015-12-10T06:08:25.377Z">
+    <change idref="t93" to="t72" to-position="3" resolved="yes">
+      <change idref="t93" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t93" attribute="title" type="string" to="测试时间"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:09:02.697Z" timestamp="2015-12-10T06:09:02.697Z">
+    <change idref="t93" attribute="title" type="string" from="测试时间" to="测试周期" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:09:18.716Z" timestamp="2015-12-10T06:09:18.716Z">
+    <change idref="t94" to="t89" to-position="2" resolved="yes">
+      <change idref="t94" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t94" attribute="title" type="string" to="测试周期"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:13:44.949Z" timestamp="2015-12-10T06:13:44.949Z">
+    <change idref="t75" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t76" attribute="effort" type="real" from="28800" to="81000" resolved="yes"/>
+    <change idref="t77" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t91" attribute="effort" type="real" from="135000" to="81000" resolved="yes"/>
+    <change idref="t94" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:13:56.743Z" timestamp="2015-12-10T06:13:56.743Z">
+    <change idref="t91" attribute="internalPrerequisitesString" type="string" to="90FS" resolved="yes"/>
+    <change idref="t94" attribute="internalPrerequisitesString" type="string" to="91FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:14:49.792Z" timestamp="2015-12-10T06:14:49.792Z">
+    <change idref="t75" attribute="internalPrerequisitesString" type="string" to="94FS" resolved="yes"/>
+    <change idref="t76" attribute="internalPrerequisitesString" type="string" to="77FS" resolved="yes"/>
+    <change idref="t77" attribute="internalPrerequisitesString" type="string" to="75FS" resolved="yes"/>
+    <change idref="t90" attribute="noEarlierThanConstraintDate" type="date" from="2015-12-10T01:00:00.000Z" to="2015-12-14T01:00:00.000Z" resolved="yes"/>
+    <change idref="t93" attribute="internalPrerequisitesString" type="string" to="76FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:16:34.950Z" timestamp="2015-12-10T06:16:34.950Z">
+    <change idref="t90" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t90" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t90" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t90" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t90" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t90" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t90" attribute="effort" type="real" from="135000" resolved="yes"/>
+    <change idref="t90" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t90" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t90" attribute="internalAssignments" type="string" from="1" resolved="yes"/>
+    <change idref="t90" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t90" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t95" to="t90" to-position="0" resolved="yes">
+      <change idref="t95" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t95" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t96" to="t90" to-position="1" resolved="yes">
+      <change idref="t96" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t96" attribute="title" type="string" to="业务逻辑"/>
+    </change>
+    <change idref="t93" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t94" attribute="effort" type="real" from="54000" to="81000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:16:48.059Z" timestamp="2015-12-10T06:16:48.059Z">
+    <change idref="t96" attribute="internalPrerequisitesString" type="string" to="95FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:18:05.673Z" timestamp="2015-12-10T06:18:05.673Z">
+    <change idref="t95" attribute="effort" type="real" from="28800" to="81000" resolved="yes"/>
+    <change idref="t96" attribute="effort" type="real" from="28800" to="81000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:19:40.541Z" timestamp="2015-12-10T06:19:40.541Z">
+    <change idref="t91" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t91" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t91" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t91" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t91" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t91" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t91" attribute="effort" type="real" from="81000" resolved="yes"/>
+    <change idref="t91" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t91" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t91" attribute="internalAssignments" type="string" from="1" resolved="yes"/>
+    <change idref="t91" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t91" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t97" to="t91" to-position="0" resolved="yes">
+      <change idref="t97" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t97" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t98" to="t91" to-position="1" resolved="yes">
+      <change idref="t98" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t98" attribute="title" type="string" to="业务逻辑"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:20:14.521Z" timestamp="2015-12-10T06:20:14.521Z">
+    <change idref="t98" attribute="internalPrerequisitesString" type="string" to="97FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:20:53.411Z" timestamp="2015-12-10T06:20:53.411Z">
+    <change idref="t97" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t98" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:21:48.908Z" timestamp="2015-12-10T06:21:48.908Z">
+    <change idref="t94" attribute="effort" type="real" from="81000" to="108000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:22:01.242Z" timestamp="2015-12-10T06:22:01.242Z">
+    <change idref="t75" attribute="internalPrerequisitesString" type="string" from="94FS" resolved="yes"/>
+    <change idref="t94" from="t89" from-position="2" resolved="yes">
+      <change idref="t94" attribute="effort" type="real" from="28800" to="108000"/>
+      <change idref="t94" attribute="internalPrerequisitesString" type="string" to="91FS"/>
+      <change idref="t94" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t94" attribute="title" type="string" to="测试周期"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:22:09.828Z" timestamp="2015-12-10T06:22:09.828Z">
+    <change idref="t99" to="t90" to-position="2" resolved="yes">
+      <change idref="t99" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t99" attribute="title" type="string" to="测试周期"/>
+    </change>
+    <change idref="t100" to="t91" to-position="2" resolved="yes">
+      <change idref="t100" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t100" attribute="title" type="string" to="测试周期"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:22:22.613Z" timestamp="2015-12-10T06:22:22.613Z">
+    <change idref="t99" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t100" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:23:32.091Z" timestamp="2015-12-10T06:23:32.091Z">
+    <change idref="t76" attribute="internalPrerequisitesString" type="string" from="77FS" resolved="yes"/>
+    <change idref="t77" attribute="internalPrerequisitesString" type="string" from="75FS" resolved="yes"/>
+    <change idref="t91" attribute="internalPrerequisitesString" type="string" from="90FS" resolved="yes"/>
+    <change idref="t93" attribute="internalPrerequisitesString" type="string" from="76FS" resolved="yes"/>
+    <change idref="t96" attribute="internalPrerequisitesString" type="string" from="95FS" resolved="yes"/>
+    <change idref="t98" attribute="internalPrerequisitesString" type="string" from="97FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:23:40.443Z" timestamp="2015-12-10T06:23:40.443Z">
+    <change idref="t91" attribute="internalPrerequisitesString" type="string" to="90FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:23:54.720Z" timestamp="2015-12-10T06:23:54.720Z">
+    <change idref="t72" attribute="internalPrerequisitesString" type="string" to="91FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:24:25.159Z" timestamp="2015-12-10T06:24:25.159Z">
+    <change idref="t76" attribute="internalPrerequisitesString" type="string" to="77FS" resolved="yes"/>
+    <change idref="t77" attribute="internalPrerequisitesString" type="string" to="75FS" resolved="yes"/>
+    <change idref="t93" attribute="internalPrerequisitesString" type="string" to="76FS" resolved="yes"/>
+    <change idref="t96" attribute="internalPrerequisitesString" type="string" to="95FS" resolved="yes"/>
+    <change idref="t98" attribute="internalPrerequisitesString" type="string" to="97FS" resolved="yes"/>
+    <change idref="t99" attribute="internalPrerequisitesString" type="string" to="96FS" resolved="yes"/>
+    <change idref="t100" attribute="internalPrerequisitesString" type="string" to="98FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:25:21.775Z" timestamp="2015-12-10T06:25:21.775Z">
+    <change idref="t76" attribute="effort" type="real" from="81000" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:25:31.770Z" timestamp="2015-12-10T06:25:31.770Z">
+    <change idref="t93" attribute="effort" type="real" from="27000" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:25:52.653Z" timestamp="2015-12-10T06:25:52.653Z">
+    <change idref="t95" attribute="effort" type="real" from="81000" to="54000" resolved="yes"/>
+    <change idref="t96" attribute="effort" type="real" from="81000" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:26:12.339Z" timestamp="2015-12-10T06:26:12.339Z">
+    <change idref="t93" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t95" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t96" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t97" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t98" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t99" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t100" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:28:11.543Z" timestamp="2015-12-10T06:28:11.543Z">
+    <change idref="t93" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t99" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t100" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:32:58.450Z" timestamp="2015-12-10T06:32:58.450Z">
+    <change idref="t102" to="t4" to-position="12" resolved="yes">
+      <change idref="t102" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t102" attribute="title" type="string" to="新浪微博SDK更新"/>
+    </change>
+    <change idref="t88" attribute="title" type="string" from="新启动引导页" to="启动引导页变更" resolved="yes"/>
+    <change idref="t92" attribute="title" type="string" from="新闻直播推送" to="直播新闻推送优化" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:33:13.732Z" timestamp="2015-12-10T06:33:13.732Z">
+    <change idref="t88" attribute="title" type="string" from="启动引导页变更" to="新启动引导页" resolved="yes"/>
+    <change idref="t92" attribute="title" type="string" from="直播新闻推送优化" to="直播新闻推送" resolved="yes"/>
+    <change idref="t102" attribute="title" type="string" from="新浪微博SDK更新" to="新浪微博分享" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:33:57.684Z" timestamp="2015-12-10T06:33:57.684Z">
+    <change idref="t88" attribute="title" type="string" from="新启动引导页" to="新的启动引导页" resolved="yes"/>
+    <change idref="t92" attribute="title" type="string" from="直播新闻推送" to="直播新闻推送优化" resolved="yes"/>
+    <change idref="t102" attribute="title" type="string" from="新浪微博分享" to="新浪微博SDK更新" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:34:06.240Z" timestamp="2015-12-10T06:34:06.240Z">
+    <change idref="t102" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:42:58.189Z" timestamp="2015-12-10T06:42:58.189Z">
+    <change idref="t9" attribute="internalPrerequisitesString" type="string" to="56FS" resolved="yes"/>
+    <change idref="t56" attribute="internalPrerequisitesString" type="string" to="7FS" resolved="yes"/>
+    <change idref="t74" attribute="internalPrerequisitesString" type="string" to="9FS" resolved="yes"/>
+    <change idref="t87" from="t74" from-position="2" to="t74" to-position="1" resolved="yes"/>
+    <change idref="t86" attribute="internalPrerequisitesString" type="string" to="87FS" resolved="yes"/>
+    <change idref="t87" attribute="internalPrerequisitesString" type="string" to="85FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:43:13.131Z" timestamp="2015-12-10T06:43:13.131Z">
+    <change idref="t7" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-14T01:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:43:34.244Z" timestamp="2015-12-10T06:43:34.244Z">
+    <change idref="t9" attribute="internalPrerequisitesString" type="string" from="56FS" resolved="yes"/>
+    <change idref="t56" attribute="internalPrerequisitesString" type="string" from="7FS" resolved="yes"/>
+    <change idref="t74" attribute="internalPrerequisitesString" type="string" from="9FS" resolved="yes"/>
+    <change idref="t86" attribute="internalPrerequisitesString" type="string" from="87FS" resolved="yes"/>
+    <change idref="t87" attribute="internalPrerequisitesString" type="string" from="85FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:44:55.542Z" timestamp="2015-12-10T06:44:55.542Z">
+    <change idref="t7" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t7" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t7" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t7" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t7" attribute="title" type="string" from="新闻收藏（UIUX）" to="新闻收藏" resolved="yes"/>
+    <change idref="t7" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t7" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t7" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t7" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t7" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t7" attribute="internalAssignments" type="string" from="4" resolved="yes"/>
+    <change idref="t7" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t7" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t103" to="t7" to-position="0" resolved="yes">
+      <change idref="t103" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t103" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t104" to="t7" to-position="1" resolved="yes">
+      <change idref="t104" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t104" attribute="title" type="string" to="测试周期"/>
+    </change>
+    <change idref="t9" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t9" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t9" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t9" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t9" attribute="title" type="string" from="集市（UIUX）" to="集市" resolved="yes"/>
+    <change idref="t9" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t9" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t9" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t9" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t9" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t9" attribute="internalAssignments" type="string" from="4" resolved="yes"/>
+    <change idref="t9" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t9" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t107" to="t9" to-position="0" resolved="yes">
+      <change idref="t107" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t107" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t108" to="t9" to-position="1" resolved="yes">
+      <change idref="t108" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t108" attribute="title" type="string" to="测试周期"/>
+    </change>
+    <change idref="t56" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t56" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t56" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t56" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t56" attribute="title" type="string" from="通讯录（UIUX）" to="通讯录" resolved="yes"/>
+    <change idref="t56" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t56" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t56" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t56" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t56" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t56" attribute="internalAssignments" type="string" from="4" resolved="yes"/>
+    <change idref="t56" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t56" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t105" to="t56" to-position="0" resolved="yes">
+      <change idref="t105" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t105" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t106" to="t56" to-position="1" resolved="yes">
+      <change idref="t106" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t106" attribute="title" type="string" to="测试周期"/>
+    </change>
+    <change idref="t109" to="t74" to-position="3" resolved="yes">
+      <change idref="t109" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t109" attribute="title" type="string" to="测试周期"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:45:42.662Z" timestamp="2015-12-10T06:45:42.662Z">
+    <change idref="t104" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t106" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t108" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t109" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:46:52.892Z" timestamp="2015-12-10T06:46:52.892Z">
+    <change idref="t103" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t104" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t105" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t106" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:47:18.789Z" timestamp="2015-12-10T06:47:18.789Z">
+    <change idref="t107" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t108" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:47:57.196Z" timestamp="2015-12-10T06:47:57.196Z">
+    <change idref="t85" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t87" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:48:22.785Z" timestamp="2015-12-10T06:48:22.785Z">
+    <change idref="t86" attribute="effort" type="real" from="28800" to="81000" resolved="yes"/>
+    <change idref="t109" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:48:36.271Z" timestamp="2015-12-10T06:48:36.271Z">
+    <change idref="t9" attribute="internalPrerequisitesString" type="string" to="56FS" resolved="yes"/>
+    <change idref="t56" attribute="internalPrerequisitesString" type="string" to="7FS" resolved="yes"/>
+    <change idref="t74" attribute="internalPrerequisitesString" type="string" to="9FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:49:28.225Z" timestamp="2015-12-10T06:49:28.225Z">
+    <change idref="t86" attribute="internalPrerequisitesString" type="string" to="87FS" resolved="yes"/>
+    <change idref="t87" attribute="internalPrerequisitesString" type="string" to="85FS" resolved="yes"/>
+    <change idref="t104" attribute="internalPrerequisitesString" type="string" to="103FS" resolved="yes"/>
+    <change idref="t106" attribute="internalPrerequisitesString" type="string" to="105FS" resolved="yes"/>
+    <change idref="t108" attribute="internalPrerequisitesString" type="string" to="107FS" resolved="yes"/>
+    <change idref="t109" attribute="internalPrerequisitesString" type="string" to="86FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:49:54.045Z" timestamp="2015-12-10T06:49:54.045Z">
+    <change idref="t85" attribute="effort" type="real" from="27000" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:50:09.793Z" timestamp="2015-12-10T06:50:09.793Z">
+    <change idref="t103" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+    <change idref="t104" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+    <change idref="t105" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+    <change idref="t106" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+    <change idref="t107" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+    <change idref="t108" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+    <change idref="t109" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:51:21.802Z" timestamp="2015-12-10T06:51:21.802Z">
+    <change idref="t6" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t6" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t6" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t6" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t6" attribute="title" type="string" from="系统设置（UIUX）" to="系统设置" resolved="yes"/>
+    <change idref="t6" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t6" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t6" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t6" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t6" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t6" attribute="internalAssignments" type="string" from="2" resolved="yes"/>
+    <change idref="t6" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t6" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t110" to="t6" to-position="0" resolved="yes">
+      <change idref="t110" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t110" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t111" to="t6" to-position="1" resolved="yes">
+      <change idref="t111" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t111" attribute="title" type="string" to="测试周期"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:51:30.305Z" timestamp="2015-12-10T06:51:30.305Z">
+    <change idref="t112" to="t22" to-position="2" resolved="yes">
+      <change idref="t112" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t112" attribute="title" type="string" to="测试周期"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:51:43.452Z" timestamp="2015-12-10T06:51:43.452Z">
+    <change idref="t113" to="t73" to-position="3" resolved="yes">
+      <change idref="t113" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t113" attribute="title" type="string" to="测试周期"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:52:42.374Z" timestamp="2015-12-10T06:52:42.374Z">
+    <change idref="t88" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t88" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t88" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t88" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t88" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t88" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t88" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t88" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t88" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t88" attribute="internalAssignments" type="string" from="2" resolved="yes"/>
+    <change idref="t88" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t88" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t114" to="t88" to-position="0" resolved="yes">
+      <change idref="t114" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t114" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t115" to="t88" to-position="1" resolved="yes">
+      <change idref="t115" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t115" attribute="title" type="string" to="测试周期"/>
+    </change>
+    <change idref="t92" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t92" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t92" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t92" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t92" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t92" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t92" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t92" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t92" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t92" attribute="internalAssignments" type="string" from="2" resolved="yes"/>
+    <change idref="t92" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t92" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t118" to="t92" to-position="0" resolved="yes">
+      <change idref="t118" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t118" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t119" to="t92" to-position="1" resolved="yes">
+      <change idref="t119" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t119" attribute="title" type="string" to="测试周期"/>
+    </change>
+    <change idref="t102" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t102" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t102" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t102" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t102" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t102" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t102" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t102" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t102" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t102" attribute="internalAssignments" type="string" from="2" resolved="yes"/>
+    <change idref="t102" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t102" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t120" to="t102" to-position="0" resolved="yes">
+      <change idref="t120" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t120" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t121" to="t102" to-position="1" resolved="yes">
+      <change idref="t121" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t121" attribute="title" type="string" to="测试周期"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:52:54.281Z" timestamp="2015-12-10T06:52:54.281Z">
+    <change idref="t114" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t115" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t118" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t119" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t120" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t121" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:53:46.519Z" timestamp="2015-12-10T06:53:46.519Z">
+    <change idref="t110" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t111" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t112" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t113" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:55:15.411Z" timestamp="2015-12-10T06:55:15.411Z">
+    <change idref="t22" attribute="internalPrerequisitesString" type="string" to="6FS" resolved="yes"/>
+    <change idref="t62" attribute="internalPrerequisitesString" type="string" to="61FS" resolved="yes"/>
+    <change idref="t73" attribute="internalPrerequisitesString" type="string" to="22FS" resolved="yes"/>
+    <change idref="t83" attribute="internalPrerequisitesString" type="string" to="82FS" resolved="yes"/>
+    <change idref="t84" attribute="internalPrerequisitesString" type="string" to="83FS" resolved="yes"/>
+    <change idref="t88" attribute="internalPrerequisitesString" type="string" to="73FS" resolved="yes"/>
+    <change idref="t92" attribute="internalPrerequisitesString" type="string" to="88FS" resolved="yes"/>
+    <change idref="t102" attribute="internalPrerequisitesString" type="string" to="92FS" resolved="yes"/>
+    <change idref="t111" attribute="internalPrerequisitesString" type="string" to="110FS" resolved="yes"/>
+    <change idref="t112" attribute="internalPrerequisitesString" type="string" to="62FS" resolved="yes"/>
+    <change idref="t113" attribute="internalPrerequisitesString" type="string" to="84FS" resolved="yes"/>
+    <change idref="t115" attribute="internalPrerequisitesString" type="string" to="114FS" resolved="yes"/>
+    <change idref="t119" attribute="internalPrerequisitesString" type="string" to="118FS" resolved="yes"/>
+    <change idref="t121" attribute="internalPrerequisitesString" type="string" to="120FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:55:33.577Z" timestamp="2015-12-10T06:55:33.577Z">
+    <change idref="t111" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t112" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t113" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t115" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t119" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t121" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:55:39.986Z" timestamp="2015-12-10T06:55:39.986Z">
+    <change idref="t110" attribute="noEarlierThanConstraintDate" type="date" from="2015-12-10T01:00:00.000Z" to="2015-12-14T01:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:56:28.487Z" timestamp="2015-12-10T06:56:28.487Z">
+    <change idref="t22" attribute="internalPrerequisitesString" type="string" from="6FS" resolved="yes"/>
+    <change idref="t73" attribute="internalPrerequisitesString" type="string" from="22FS" resolved="yes"/>
+    <change idref="t88" attribute="internalPrerequisitesString" type="string" from="73FS" resolved="yes"/>
+    <change idref="t92" attribute="internalPrerequisitesString" type="string" from="88FS" resolved="yes"/>
+    <change idref="t102" attribute="internalPrerequisitesString" type="string" from="92FS" resolved="yes"/>
+    <change idref="t110" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t111" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T06:59:58.891Z" timestamp="2015-12-10T06:59:58.891Z">
+    <change idref="t6" from="t4" from-position="1" to="t4" to-position="4" resolved="yes"/>
+    <change idref="t92" from="t4" from-position="11" to="t4" to-position="5" resolved="yes"/>
+    <change idref="t88" from="t4" from-position="11" to="t4" to-position="7" resolved="yes"/>
+    <change idref="t102" from="t4" from-position="12" to="t4" to-position="8" resolved="yes"/>
+    <change idref="t8" from="t4" from-position="2" to="t4" to-position="8" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:01:50.238Z" timestamp="2015-12-10T07:01:50.238Z">
+    <change idref="t22" from="t4" from-position="5" to="t4" to-position="12" resolved="yes"/>
+    <change idref="t88" from="t4" from-position="5" to="t4" to-position="12" resolved="yes"/>
+    <change idref="t102" from="t4" from-position="5" to="t4" to-position="12" resolved="yes"/>
+    <change idref="t22" attribute="internalPrerequisitesString" type="string" to="73FS" resolved="yes"/>
+    <change idref="t73" attribute="internalPrerequisitesString" type="string" to="92FS" resolved="yes"/>
+    <change idref="t88" attribute="internalPrerequisitesString" type="string" to="22FS" resolved="yes"/>
+    <change idref="t92" attribute="internalPrerequisitesString" type="string" to="6FS" resolved="yes"/>
+    <change idref="t102" attribute="internalPrerequisitesString" type="string" to="88FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:04:34.169Z" timestamp="2015-12-10T07:04:34.169Z">
+    <change idref="t122" to="t22" to-position="1" resolved="yes">
+      <change idref="t122" attribute="effort" type="real" from="28800" to="54000"/>
+      <change idref="t122" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t122" attribute="internalPrerequisitesString" type="string" to="61FS"/>
+      <change idref="t122" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t122" attribute="title" type="string" to="接口调试"/>
+    </change>
+    <change idref="t61" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t62" attribute="internalPrerequisitesString" type="string" from="61FS" to="122FS" resolved="yes"/>
+    <change idref="t62" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t82" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t83" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t84" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t112" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t113" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t114" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t115" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t118" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t119" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t120" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t121" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:05:24.414Z" timestamp="2015-12-10T07:05:24.414Z">
+    <change idref="t111" attribute="effort" type="real" from="27000" to="0" resolved="yes"/>
+    <change idref="t118" attribute="effort" type="real" from="27000" to="13500" resolved="yes"/>
+    <change idref="t119" attribute="effort" type="real" from="27000" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:06:03.117Z" timestamp="2015-12-10T07:06:03.117Z">
+    <change idref="t113" attribute="effort" type="real" from="27000" to="13500" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:07:52.899Z" timestamp="2015-12-10T07:07:52.899Z">
+    <change idref="t55" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t55" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t55" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t55" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t55" attribute="title" type="string" from="并友（UIUX）" to="并友" resolved="yes"/>
+    <change idref="t55" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t55" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t55" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t55" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t55" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t55" attribute="internalAssignments" type="string" from="3" resolved="yes"/>
+    <change idref="t55" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t55" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t124" to="t55" to-position="0" resolved="yes">
+      <change idref="t124" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t124" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t124" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t125" to="t55" to-position="1" resolved="yes">
+      <change idref="t125" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t125" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t125" attribute="title" type="string" to="测试周期"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:09:03.234Z" timestamp="2015-12-10T07:09:03.234Z">
+    <change idref="t65" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t65" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t65" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t65" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t65" attribute="title" type="string" from="生活方式（UIUX）" to="生活方式" resolved="yes"/>
+    <change idref="t65" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t65" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t65" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t65" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t65" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t65" attribute="internalAssignments" type="string" from="3" resolved="yes"/>
+    <change idref="t65" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t65" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t126" to="t65" to-position="0" resolved="yes">
+      <change idref="t126" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t126" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t126" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t127" to="t65" to-position="1" resolved="yes">
+      <change idref="t127" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t127" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t127" attribute="title" type="string" to="业务逻辑"/>
+    </change>
+    <change idref="t128" to="t65" to-position="2" resolved="yes">
+      <change idref="t128" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t128" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t128" attribute="title" type="string" to="测试周期"/>
+    </change>
+    <change idref="t66" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t66" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t66" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t66" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t66" attribute="title" type="string" from="即时新闻（UIUX）" to="即时新闻" resolved="yes"/>
+    <change idref="t66" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t66" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t66" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t66" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t66" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t66" attribute="internalAssignments" type="string" from="3" resolved="yes"/>
+    <change idref="t66" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t66" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t129" to="t66" to-position="0" resolved="yes">
+      <change idref="t129" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t129" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t129" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t130" to="t66" to-position="1" resolved="yes">
+      <change idref="t130" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t130" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t130" attribute="title" type="string" to="业务逻辑"/>
+    </change>
+    <change idref="t131" to="t66" to-position="2" resolved="yes">
+      <change idref="t131" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t131" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t131" attribute="title" type="string" to="测试周期"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:10:22.614Z" timestamp="2015-12-10T07:10:22.614Z">
+    <change idref="t132" to="t23" to-position="2" resolved="yes">
+      <change idref="t132" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t132" attribute="title" type="string" to="新浪微博SDK更新"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:10:47.955Z" timestamp="2015-12-10T07:10:47.955Z">
+    <change idref="t132" attribute="title" type="string" from="新浪微博SDK更新" to="新浪微博分享变更" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:10:55.227Z" timestamp="2015-12-10T07:10:55.227Z">
+    <change idref="t132" attribute="title" type="string" from="新浪微博分享变更" to="微博分享" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:11:27.529Z" timestamp="2015-12-10T07:11:27.529Z">
+    <change idref="t132" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t132" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t132" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t132" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t132" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t132" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t132" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t132" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t132" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t132" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t132" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t132" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t133" to="t132" to-position="0" resolved="yes">
+      <change idref="t133" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t133" attribute="title" type="string" to="接口调试"/>
+    </change>
+    <change idref="t134" to="t132" to-position="1" resolved="yes">
+      <change idref="t134" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t134" attribute="title" type="string" to="测试周期"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:11:36.609Z" timestamp="2015-12-10T07:11:36.609Z">
+    <change idref="t133" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+    <change idref="t134" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:13:43.363Z" timestamp="2015-12-10T07:13:43.363Z">
+    <change idref="t28" attribute="internalPrerequisitesString" type="string" to="66FS" resolved="yes"/>
+    <change idref="t65" attribute="internalPrerequisitesString" type="string" to="55FS" resolved="yes"/>
+    <change idref="t66" attribute="internalPrerequisitesString" type="string" to="65FS" resolved="yes"/>
+    <change idref="t70" attribute="internalPrerequisitesString" type="string" to="28FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:13:57.086Z" timestamp="2015-12-10T07:13:57.086Z">
+    <change idref="t70" attribute="internalPrerequisitesString" type="string" from="28FS" to="28FS, 132SF" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:14:03.592Z" timestamp="2015-12-10T07:14:03.592Z">
+    <change idref="t124" attribute="noEarlierThanConstraintDate" type="date" from="2015-12-10T01:00:00.000Z" to="2015-12-14T01:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:14:17.254Z" timestamp="2015-12-10T07:14:17.254Z">
+    <change idref="t124" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
+    <change idref="t125" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:18:20.885Z" timestamp="2015-12-10T07:18:20.885Z">
+    <change idref="t70" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t70" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t70" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t70" attribute="internalPrerequisitesString" type="string" from="28FS, 132SF" to="28FS, 132SS" resolved="yes"/>
+    <change idref="t70" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t70" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t70" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t70" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t70" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t70" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t70" attribute="internalAssignments" type="string" from="3" resolved="yes"/>
+    <change idref="t70" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t70" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t135" to="t70" to-position="0" resolved="yes">
+      <change idref="t135" attribute="effort" type="real" from="28800" to="27000"/>
+      <change idref="t135" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t135" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t135" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t136" to="t70" to-position="1" resolved="yes">
+      <change idref="t136" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t136" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t136" attribute="title" type="string" to="业务逻辑"/>
+    </change>
+    <change idref="t137" to="t70" to-position="2" resolved="yes">
+      <change idref="t137" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t137" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t137" attribute="title" type="string" to="测试周期"/>
+    </change>
+    <change idref="t126" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t133" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t134" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:18:41.173Z" timestamp="2015-12-10T07:18:41.173Z">
+    <change idref="t28" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t28" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t28" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t28" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t28" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t28" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t28" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t28" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t28" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t28" attribute="internalAssignments" type="string" from="3" resolved="yes"/>
+    <change idref="t28" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t28" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t140" to="t28" to-position="0" resolved="yes">
+      <change idref="t140" attribute="effort" type="real" from="28800" to="27000"/>
+      <change idref="t140" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t140" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t140" attribute="title" type="string" to="UIUX"/>
+    </change>
+    <change idref="t141" to="t28" to-position="1" resolved="yes">
+      <change idref="t141" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t141" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t141" attribute="title" type="string" to="业务逻辑"/>
+    </change>
+    <change idref="t142" to="t28" to-position="2" resolved="yes">
+      <change idref="t142" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t142" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t142" attribute="title" type="string" to="测试周期"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:19:44.084Z" timestamp="2015-12-10T07:19:44.084Z">
+    <change idref="t125" attribute="internalPrerequisitesString" type="string" to="124FS" resolved="yes"/>
+    <change idref="t127" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t128" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:19:59.117Z" timestamp="2015-12-10T07:19:59.117Z">
+    <change idref="t125" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t128" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t131" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t134" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t137" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+    <change idref="t142" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:20:08.609Z" timestamp="2015-12-10T07:20:08.609Z">
+    <change idref="t127" attribute="internalPrerequisitesString" type="string" to="126FS" resolved="yes"/>
+    <change idref="t128" attribute="internalPrerequisitesString" type="string" to="127FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:20:40.344Z" timestamp="2015-12-10T07:20:40.344Z">
+    <change idref="t129" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t130" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t131" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:21:29.671Z" timestamp="2015-12-10T07:21:29.671Z">
+    <change idref="t143" to="t28" to-position="1" resolved="yes">
+      <change idref="t143" attribute="effort" type="real" from="28800" to="27000"/>
+      <change idref="t143" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t143" attribute="title" type="string" to="接口调试"/>
+    </change>
+    <change idref="t133" attribute="effort" type="real" from="27000" to="13500" resolved="yes"/>
+    <change idref="t140" attribute="effort" type="real" from="27000" to="81000" resolved="yes"/>
+    <change idref="t141" attribute="effort" type="real" from="28800" to="81000" resolved="yes"/>
+    <change idref="t142" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:23:04.620Z" timestamp="2015-12-10T07:23:04.620Z">
+    <change idref="t144" to="t70" to-position="1" resolved="yes">
+      <change idref="t144" attribute="effort" type="real" from="28800" to="27000"/>
+      <change idref="t144" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t144" attribute="internalPrerequisitesString" type="string" to="135FS"/>
+      <change idref="t144" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t144" attribute="title" type="string" to="接口调试"/>
+    </change>
+    <change idref="t130" attribute="internalPrerequisitesString" type="string" to="129FS" resolved="yes"/>
+    <change idref="t131" attribute="internalPrerequisitesString" type="string" to="130FS" resolved="yes"/>
+    <change idref="t134" attribute="internalPrerequisitesString" type="string" to="133FS" resolved="yes"/>
+    <change idref="t136" attribute="effort" type="real" from="28800" to="40500" resolved="yes"/>
+    <change idref="t136" attribute="internalPrerequisitesString" type="string" to="144FS" resolved="yes"/>
+    <change idref="t137" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t137" attribute="internalPrerequisitesString" type="string" to="136FS" resolved="yes"/>
+    <change idref="t141" attribute="internalPrerequisitesString" type="string" to="143FS" resolved="yes"/>
+    <change idref="t142" attribute="internalPrerequisitesString" type="string" to="141FS" resolved="yes"/>
+    <change idref="t143" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+    <change idref="t143" attribute="internalPrerequisitesString" type="string" to="140FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:25:04.713Z" timestamp="2015-12-10T07:25:04.713Z">
+    <change idref="t137" attribute="effort" type="real" from="27000" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:29:37.049Z" timestamp="2015-12-10T07:29:37.049Z">
+    <change idref="t132" from="t23" from-position="2" to="t4" to-position="13" resolved="yes"/>
+    <change idref="t70" attribute="internalPrerequisitesString" type="string" from="28FS, 132SS" to="28FS" resolved="yes"/>
+    <change idref="t132" attribute="internalPrerequisitesString" type="string" to="70FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T07:30:06.137Z" timestamp="2015-12-10T07:30:06.137Z">
+    <change idref="t132" attribute="title" type="string" from="微博分享" to="微博分享变更" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="Yuhui Huang" date="2015-12-10T06:05:29.743Z" timestamp="2015-12-10T06:05:29.743Z">
+    <change idref="r-1" attribute="timeOffString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFWYiRv0gACJHKMAA1AIDBAUGCgsGIkc92AAiR30gAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" resolved="yes"/>
+  </resource-change-set>
 </changelog>
