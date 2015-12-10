@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="46" y="0" w="1394" h="877">
+  <window x="47" y="0" w="1394" h="877">
     <editing-scenario>cHqubXCdmW0</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>extended</status-display>
     <task-view>
-      <split-view-divider-position>1062</split-view-divider-position>
-      <outline x="0" y="140" w="1062" h="808">
+      <split-view-divider-position>989</split-view-divider-position>
+      <outline x="0" y="0" w="989" h="766">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="221"/>
-        <column name="Priority" width="54"/>
+        <column name="Title" width="250"/>
         <column name="Assigned" width="69"/>
-        <column name="Time" width="68"/>
-        <column name="Effort" width="91"/>
+        <column name="Time" width="61"/>
+        <column name="Effort" width="41"/>
         <column name="Start" width="120"/>
         <column name="End" width="117"/>
-        <column name="Status" width="20"/>
         <column name="%Done" width="82"/>
         <column name="Prerequisites" width="87"/>
         <column name="Dependents" width="79"/>
-        <expanded-items idrefs="t9 t88 t102 t71 t92 t55 t22 t89 t72 t56 t4 t23 t73 t28 t65 t6 t90 t74 t132 t66 t7 t70 t8 t91"/>
+        <expanded-items idrefs="t9 t88 t102 t71 t55 t92 t22 t89 t72 t56 t4 t23 t73 t28 t65 t6 t90 t74 t66 t7 t132 t70 t8 t91"/>
       </outline>
-      <gantt-view x="0" y="0" w="0" h="0">
+      <gantt-view x="327" y="0" w="388" h="766">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -55,7 +53,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="24.9878">
+        <scale scale-name="Automatic" full-day-width="43.5521">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
