@@ -1625,6 +1625,116 @@
   <task-change-set user="Yuhui Huang" date="2015-12-10T07:30:06.137Z" timestamp="2015-12-10T07:30:06.137Z">
     <change idref="t132" attribute="title" type="string" from="微博分享" to="微博分享变更" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T08:55:36.877Z" timestamp="2015-12-10T08:55:36.877Z">
+    <change idref="t90" attribute="title" type="string" from="生活方式" to="生活方式与个人中心" resolved="yes"/>
+    <change idref="t99" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t99" attribute="internalPrerequisitesString" type="string" to="96FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T08:55:47.346Z" timestamp="2015-12-10T08:55:47.346Z">
+    <change idref="t72" attribute="internalPrerequisitesString" type="string" from="91FS" resolved="yes"/>
+    <change idref="t91" from="t89" from-position="1" resolved="yes">
+      <change idref="t91" attribute="internalPrerequisitesString" type="string" to="90FS"/>
+      <change idref="t91" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t91" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t91" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t91" attribute="title" type="string" to="个人中心"/>
+    </change>
+    <change idref="t99" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t99" attribute="internalPrerequisitesString" type="string" to="96FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T08:56:23.167Z" timestamp="2015-12-10T08:56:23.167Z">
+    <change idref="t72" attribute="internalPrerequisitesString" type="string" to="90FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T08:56:59.708Z" timestamp="2015-12-10T08:56:59.708Z">
+    <change idref="t99" attribute="effort" type="real" from="54000" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T08:57:29.123Z" timestamp="2015-12-10T08:57:29.123Z">
+    <change idref="t93" attribute="effort" type="real" from="54000" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T08:57:48.977Z" timestamp="2015-12-10T08:57:48.977Z">
+    <change idref="t76" from="t72" from-position="2" resolved="yes">
+      <change idref="t76" attribute="effort" type="real" from="28800" to="54000"/>
+      <change idref="t76" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t76" attribute="internalPrerequisitesString" type="string" to="77FS"/>
+      <change idref="t76" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t76" attribute="title" type="string" to="业务逻辑"/>
+    </change>
+    <change idref="t77" attribute="title" type="string" from="接口调试" to="接口调试与业务逻辑" resolved="yes"/>
+    <change idref="t93" attribute="internalPrerequisitesString" type="string" from="76FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T08:57:58.628Z" timestamp="2015-12-10T08:57:58.628Z">
+    <change idref="t93" attribute="internalPrerequisitesString" type="string" to="77FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T08:58:05.719Z" timestamp="2015-12-10T08:58:05.719Z">
+    <change idref="t77" attribute="effort" type="real" from="27000" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T08:59:20.342Z" timestamp="2015-12-10T08:59:20.342Z">
+    <change idref="t93" attribute="effort" type="real" from="27000" to="54000" resolved="yes"/>
+    <change idref="t99" attribute="effort" type="real" from="27000" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T08:59:43.027Z" timestamp="2015-12-10T08:59:43.027Z">
+    <change idref="t77" attribute="effort" type="real" from="54000" to="81000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T08:59:51.943Z" timestamp="2015-12-10T08:59:51.943Z">
+    <change idref="t96" attribute="effort" type="real" from="54000" to="81000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:02:25.844Z" timestamp="2015-12-10T09:02:25.844Z">
+    <change idref="t103" attribute="effort" type="real" from="54000" to="27000" resolved="yes"/>
+    <change idref="t104" attribute="effort" type="real" from="54000" to="27000" resolved="yes"/>
+    <change idref="t105" attribute="effort" type="real" from="54000" to="27000" resolved="yes"/>
+    <change idref="t106" attribute="effort" type="real" from="54000" to="27000" resolved="yes"/>
+    <change idref="t107" attribute="effort" type="real" from="54000" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:02:43.904Z" timestamp="2015-12-10T09:02:43.904Z">
+    <change idref="t86" attribute="effort" type="real" from="81000" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:04:06.244Z" timestamp="2015-12-10T09:04:06.244Z">
+    <change idref="t9" from="t4" from-position="2" to="t4" to-position="5" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:04:30.164Z" timestamp="2015-12-10T09:04:30.164Z">
+    <change idref="t86" attribute="effort" type="real" from="54000" to="81000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:05:30.392Z" timestamp="2015-12-10T09:05:30.392Z">
+    <change idref="t87" attribute="effort" type="real" from="27000" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:05:44.156Z" timestamp="2015-12-10T09:05:44.156Z">
+    <change idref="t86" attribute="effort" type="real" from="81000" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:06:34.406Z" timestamp="2015-12-10T09:06:34.406Z">
+    <change idref="t84" attribute="effort" type="real" from="27000" to="13500" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:06:43.809Z" timestamp="2015-12-10T09:06:43.809Z">
+    <change idref="t122" attribute="effort" type="real" from="54000" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:07:07.450Z" timestamp="2015-12-10T09:07:07.450Z">
+    <change idref="t112" attribute="effort" type="real" from="54000" to="0" resolved="yes"/>
+    <change idref="t115" attribute="effort" type="real" from="27000" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:07:49.995Z" timestamp="2015-12-10T09:07:49.995Z">
+    <change idref="t121" attribute="effort" type="real" from="27000" to="13500" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:12:58.566Z" timestamp="2015-12-10T09:12:58.566Z">
+    <change idref="t28" from="t4" from-position="7" resolved="yes">
+      <change idref="t28" attribute="internalPrerequisitesString" type="string" to="66FS"/>
+      <change idref="t28" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t28" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t28" attribute="title" type="string" to="视频播放"/>
+    </change>
+    <change idref="t70" attribute="internalPrerequisitesString" type="string" from="28FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:13:57.196Z" timestamp="2015-12-10T09:13:57.196Z">
+    <change idref="t70" attribute="internalPrerequisitesString" type="string" to="66FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:16:19.500Z" timestamp="2015-12-10T09:16:19.500Z">
+    <change idref="t128" attribute="effort" type="real" from="0" to="27000" resolved="yes"/>
+    <change idref="t130" attribute="effort" type="real" from="27000" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:16:27.037Z" timestamp="2015-12-10T09:16:27.037Z">
+    <change idref="t136" attribute="effort" type="real" from="40500" to="67500" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-10T09:17:25.565Z" timestamp="2015-12-10T09:17:25.565Z">
+    <change idref="t132" attribute="title" type="string" from="微博分享变更" to="新浪微博分享变更" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2015-12-10T06:05:29.743Z" timestamp="2015-12-10T06:05:29.743Z">
     <change idref="r-1" attribute="timeOffString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFWYiRv0gACJHKMAA1AIDBAUGCgsGIkc92AAiR30gAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" resolved="yes"/>
   </resource-change-set>

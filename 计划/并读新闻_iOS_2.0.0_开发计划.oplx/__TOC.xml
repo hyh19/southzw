@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="47" y="0" w="1394" h="877">
+  <window x="51" y="-2" w="1393" h="877">
     <editing-scenario>cHqubXCdmW0</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>extended</status-display>
     <task-view>
-      <split-view-divider-position>989</split-view-divider-position>
-      <outline x="0" y="0" w="989" h="766">
+      <split-view-divider-position>994</split-view-divider-position>
+      <outline x="0" y="0" w="994" h="766">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="250"/>
+        <column name="Title" width="266"/>
         <column name="Assigned" width="69"/>
         <column name="Time" width="61"/>
-        <column name="Effort" width="41"/>
+        <column name="Effort" width="61"/>
         <column name="Start" width="120"/>
         <column name="End" width="117"/>
         <column name="%Done" width="82"/>
         <column name="Prerequisites" width="87"/>
         <column name="Dependents" width="79"/>
-        <expanded-items idrefs="t9 t88 t102 t71 t55 t92 t22 t89 t72 t56 t4 t23 t73 t28 t65 t6 t90 t74 t66 t7 t132 t70 t8 t91"/>
+        <expanded-items idrefs="t9 t88 t102 t71 t55 t92 t22 t89 t72 t56 t4 t23 t73 t65 t6 t90 t74 t66 t132 t7 t70 t8"/>
       </outline>
-      <gantt-view x="327" y="0" w="388" h="766">
+      <gantt-view x="537" y="0" w="382" h="766">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -53,7 +53,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="43.5521">
+        <scale scale-name="Automatic" full-day-width="67.5925">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -75,7 +75,7 @@
         <column name="#" width="75"/>
         <selected-items-at-filter-time idrefs="r4 r3 r2"/>
       </outline>
-      <timeline x="38" y="0" w="1038" h="745">
+      <timeline x="38" y="0" w="727" h="745">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -119,7 +119,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="275" h="562">
+      <outline x="0" y="0" w="275" h="721">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="160"/>
@@ -136,7 +136,7 @@
     </network-view>
   </window>
   <project>
-    <next-task-id>145</next-task-id>
+    <next-task-id>150</next-task-id>
     <next-resource-id>5</next-resource-id>
     <scenario id="cHqubXCdmW0" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>

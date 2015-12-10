@@ -108,12 +108,11 @@
     <type>group</type>
     <child-task idref="t89"/>
     <child-task idref="t7"/>
-    <child-task idref="t9"/>
     <child-task idref="t6"/>
     <child-task idref="t92"/>
     <child-task idref="t8"/>
+    <child-task idref="t9"/>
     <child-task idref="t23"/>
-    <child-task idref="t28"/>
     <child-task idref="t70"/>
     <child-task idref="t71"/>
     <child-task idref="t22"/>
@@ -162,15 +161,6 @@
     <type>group</type>
     <child-task idref="t65"/>
     <child-task idref="t66"/>
-  </task>
-  <task id="t28">
-    <title>视频播放</title>
-    <type>group</type>
-    <child-task idref="t140"/>
-    <child-task idref="t143"/>
-    <child-task idref="t141"/>
-    <child-task idref="t142"/>
-    <prerequisite-task idref="t66"/>
   </task>
   <task id="t55">
     <title>并友</title>
@@ -232,7 +222,7 @@
     <child-task idref="t144"/>
     <child-task idref="t136"/>
     <child-task idref="t137"/>
-    <prerequisite-task idref="t28"/>
+    <prerequisite-task idref="t66"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t71">
@@ -250,9 +240,8 @@
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <child-task idref="t75"/>
     <child-task idref="t77"/>
-    <child-task idref="t76"/>
     <child-task idref="t93"/>
-    <prerequisite-task idref="t91"/>
+    <prerequisite-task idref="t90"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t73">
@@ -284,17 +273,9 @@
     <assignment idref="r1"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t76">
-    <title>业务逻辑</title>
-    <effort>54000</effort>
-    <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t77"/>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
-  </task>
   <task id="t77">
-    <title>接口调试</title>
-    <effort>27000</effort>
+    <title>接口调试与业务逻辑</title>
+    <effort>81000</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t75"/>
     <assignment idref="r1"/>
@@ -317,7 +298,7 @@
   </task>
   <task id="t84">
     <title>接口调试</title>
-    <effort>27000</effort>
+    <effort>13500</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t83"/>
     <assignment idref="r2"/>
@@ -332,7 +313,7 @@
   </task>
   <task id="t86">
     <title>业务逻辑</title>
-    <effort>81000</effort>
+    <effort>54000</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t87"/>
     <assignment idref="r4"/>
@@ -340,7 +321,7 @@
   </task>
   <task id="t87">
     <title>接口调试</title>
-    <effort>27000</effort>
+    <effort>54000</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t85"/>
     <assignment idref="r4"/>
@@ -360,27 +341,16 @@
     <type>group</type>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <child-task idref="t90"/>
-    <child-task idref="t91"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t90">
-    <title>生活方式</title>
+    <title>生活方式与个人中心</title>
     <type>group</type>
     <start-constraint-date>2015-12-14T01:00:00.000Z</start-constraint-date>
     <child-task idref="t95"/>
     <child-task idref="t96"/>
     <child-task idref="t99"/>
     <start-no-earlier-than>2015-12-14T01:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t91">
-    <title>个人中心</title>
-    <type>group</type>
-    <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
-    <child-task idref="t97"/>
-    <child-task idref="t98"/>
-    <child-task idref="t100"/>
-    <prerequisite-task idref="t90"/>
-    <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t92">
     <title>直播新闻推送优化</title>
@@ -400,7 +370,7 @@
         <color r="0" g="0" b="1"/>
       </value>
     </style>
-    <prerequisite-task idref="t76"/>
+    <prerequisite-task idref="t77"/>
     <assignment idref="r1"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
@@ -413,24 +383,9 @@
   </task>
   <task id="t96">
     <title>业务逻辑</title>
-    <effort>54000</effort>
+    <effort>81000</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t95"/>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t97">
-    <title>UIUX</title>
-    <effort>54000</effort>
-    <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t98">
-    <title>业务逻辑</title>
-    <effort>54000</effort>
-    <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t97"/>
     <assignment idref="r1"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
@@ -447,19 +402,6 @@
     <assignment idref="r1"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t100">
-    <title>测试周期</title>
-    <effort>54000</effort>
-    <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color r="0" g="0" b="1"/>
-      </value>
-    </style>
-    <prerequisite-task idref="t98"/>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
-  </task>
   <task id="t102">
     <title>新浪微博SDK更新</title>
     <type>group</type>
@@ -471,14 +413,14 @@
   </task>
   <task id="t103">
     <title>UIUX</title>
-    <effort>54000</effort>
+    <effort>27000</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <assignment idref="r4"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t104">
     <title>测试周期</title>
-    <effort>54000</effort>
+    <effort>27000</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -491,14 +433,14 @@
   </task>
   <task id="t105">
     <title>UIUX</title>
-    <effort>54000</effort>
+    <effort>27000</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <assignment idref="r4"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t106">
     <title>测试周期</title>
-    <effort>54000</effort>
+    <effort>27000</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -511,7 +453,7 @@
   </task>
   <task id="t107">
     <title>UIUX</title>
-    <effort>54000</effort>
+    <effort>27000</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <assignment idref="r4"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
@@ -564,7 +506,7 @@
   </task>
   <task id="t112">
     <title>测试周期</title>
-    <effort>54000</effort>
+    <effort>0</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -597,7 +539,7 @@
   </task>
   <task id="t115">
     <title>测试周期</title>
-    <effort>27000</effort>
+    <effort>0</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -637,7 +579,7 @@
   </task>
   <task id="t121">
     <title>测试周期</title>
-    <effort>27000</effort>
+    <effort>13500</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -650,7 +592,7 @@
   </task>
   <task id="t122">
     <title>接口调试</title>
-    <effort>54000</effort>
+    <effort>27000</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t61"/>
     <assignment idref="r2"/>
@@ -693,7 +635,7 @@
   </task>
   <task id="t128">
     <title>测试周期</title>
-    <effort>0</effort>
+    <effort>27000</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -713,7 +655,7 @@
   </task>
   <task id="t130">
     <title>业务逻辑</title>
-    <effort>27000</effort>
+    <effort>54000</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t129"/>
     <assignment idref="r3"/>
@@ -733,7 +675,7 @@
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t132">
-    <title>微博分享变更</title>
+    <title>新浪微博分享变更</title>
     <type>group</type>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <child-task idref="t133"/>
@@ -770,7 +712,7 @@
   </task>
   <task id="t136">
     <title>业务逻辑</title>
-    <effort>40500</effort>
+    <effort>67500</effort>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t144"/>
     <assignment idref="r3"/>
@@ -786,42 +728,6 @@
       </value>
     </style>
     <prerequisite-task idref="t136"/>
-    <assignment idref="r3"/>
-    <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t140">
-    <title>UIUX</title>
-    <effort>81000</effort>
-    <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
-    <assignment idref="r3"/>
-    <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t141">
-    <title>业务逻辑</title>
-    <effort>81000</effort>
-    <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t143"/>
-    <assignment idref="r3"/>
-    <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t142">
-    <title>测试周期</title>
-    <effort>27000</effort>
-    <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color r="0" g="0" b="1"/>
-      </value>
-    </style>
-    <prerequisite-task idref="t141"/>
-    <assignment idref="r3"/>
-    <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t143">
-    <title>接口调试</title>
-    <effort>27000</effort>
-    <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t140"/>
     <assignment idref="r3"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
