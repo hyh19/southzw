@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1440" y="0" w="1440" h="845">
+  <window x="1441" y="-1" w="1439" h="877">
     <editing-scenario>cHqubXCdmW0</editing-scenario>
     <view>task</view>
+    <current-filter>ddTKYnxRg2t</current-filter>
     <change-tracking/>
     <status-display>extended</status-display>
     <task-view>
-      <split-view-divider-position>1072</split-view-divider-position>
-      <outline x="0" y="0" w="1072" h="807">
+      <split-view-divider-position>1101</split-view-divider-position>
+      <outline x="0" y="6" w="1101" h="745">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="257"/>
+        <column name="Title" width="305"/>
         <column name="Assigned" width="69"/>
         <column name="Time" width="61"/>
         <column name="Effort" width="61"/>
@@ -19,10 +20,11 @@
         <column name="Status" width="20"/>
         <column name="%Done" width="82"/>
         <column name="Prerequisites" width="87"/>
-        <column name="Dependents" width="79"/>
-        <expanded-items idrefs="t9 t88 t71 t102 t55 t92 t22 t89 t72 t56 t4 t23 t73 t65 t6 t90 t74 t66 t7 t132 t70 t8"/>
+        <column name="Dependents" width="80"/>
+        <expanded-items idrefs="t9 t88 t71 t102 t92 t55 t22 t89 t72 t56 t4 t23 t73 t65 t6 t90 t74 t66 t132 t7 t70 t8"/>
+        <selected-items-at-filter-time idrefs="t83 t96 t124 t71 t92 t84 t118 t55 t111 t89 t127 t105 t56 t4 t23 t125 t103 t73 t65 t119 t6 t90 t82 t106 t7 t95 t110 t126 t8 t104"/>
       </outline>
-      <gantt-view x="305" y="0" w="351" h="807">
+      <gantt-view x="969" y="6" w="321" h="745">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -54,15 +56,15 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="44.2035">
-          <selected/>
-        </scale>
+        <scale scale-name="Automatic" full-day-width="46.8864"/>
         <scale scale-name="Day" full-day-width="1215"/>
         <scale scale-name="Hour" full-day-width="65880"/>
         <scale scale-name="Minute" full-day-width="64800"/>
         <scale scale-name="Month" full-day-width="34.5"/>
         <scale scale-name="Quarter" full-day-width="9.6"/>
-        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Week" full-day-width="120.624">
+          <selected/>
+        </scale>
         <scale scale-name="Year" full-day-width="2.3625"/>
         <offtime-display>none</offtime-display>
       </gantt-view>
@@ -193,8 +195,8 @@
         </value>
       </style>
     </not-editable-style>
-<!-- startDate == CAST(471747600.000000, "NSDate") -->
-    <filter name="Last Used" flat="0" id="ddTKYnxRg2t">YnBsaXN0MDDUAQIDBAUGamtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFwcIDxQcJicqMTU6Oz5CRktPUlVdYWVnVSRudWxs0wkKCwwNDl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxACgAKAFtIQCxETWk5TLm9iamVjdHOhEoADgBXUCxUWFxgZGhtfEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBSADoAEgBLVHR4fIAshIiMkJVlOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADVx2YWx1ZUZvcktleTrSHwsoKRABgAfSKywtLlokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMtLzBcTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMjShM4AJgAzTCx82Nzg5WU5TS2V5UGF0aIALEAqACllzdGFydERhdGXSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEdJMC01OV05TLnRpbWUjQbweTBAAAACAENIrLFBRVk5TRGF0ZaJQMNIrLFNUXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNTLzDVC1ZXWFlaSVtJXFpOU01vZGlmaWVyWE5TTmVnYXRlWU5TT3B0aW9uc15OU09wZXJhdG9yVHlwZYATCBAE0issXl9fEBtOU0VxdWFsaXR5UHJlZGljYXRlT3BlcmF0b3KjXmAwXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLGJjXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2JkMFtOU1ByZWRpY2F0ZdIrLEFmokEw0issaGlfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2hkMF8QD05TS2V5ZWRBcmNoaXZlctFsbVRyb290gAEACAARABoAIwAtADIANwBRAFcAXgB4AIoAkQCTAJUAlwCcAKcAqQCrAK0AtgDKAN0A8wD1APcA+QD7AQYBEAEfATIBPgFAAUIBRAFGAUgBVQFaAVwBXgFjAW4BdwGKAY4BmwGkAakBqwGtAa8BtgHAAcIBxAHGAdAB1QH0AfgB/QIMAhACGAIdAjMCOAJPAlYCaAJqAmwCbgJzAnsChAKGAosCkgKVApoCtgK6AsUC0ALZAuMC8gL0AvUC9wL8AxoDHgM0AzkDUQNVA2EDZgNpA24DhAOIA5oDnQOiAAAAAAAAAgEAAAAAAAAAbgAAAAAAAAAAAAAAAAAAA6Q=</filter>
+<!-- endDate <= CAST(472039200.000000, "NSDate") OR startDate <= CAST(472006800.000000, "NSDate") -->
+    <filter name="Last Used" flat="0" id="ddTKYnxRg2t">YnBsaXN0MDDUAQIDBAUGhIVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QHwcIDxUdJygrMjY7PD9DR0xQU1ZcYWVqb3N2d3p9f4FVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAe0hALERRaTlMub2JqZWN0c6ISE4ADgBWAHdQLFhcYGRobHF8QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAFIAOgASAEtUeHyAhCyIjJCUmWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIgCykqEAGAB9IsLS4vWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy4wMVxOU0V4cHJlc3Npb25YTlNPYmplY3TSEAszNaE0gAmADNMLIDc4OTpZTlNLZXlQYXRogAsQCoAKV2VuZERhdGXSLC09Pl8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPTAx0iwtQEFeTlNNdXRhYmxlQXJyYXmjQEIxV05TQXJyYXnSLC1ERV8QE05TS2V5UGF0aEV4cHJlc3Npb26kREYwMV8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00ggC0lKS18QD05TQ29uc3RhbnRWYWx1ZYAPEACAEdJNC05PV05TLnRpbWUjQbwivyAAAACAENIsLVFSVk5TRGF0ZaJRMdIsLVRVXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNUMDHVC1dYWVpbSilKKVpOU01vZGlmaWVyWU5TVmFyaWFudFlOU09wdGlvbnNeTlNPcGVyYXRvclR5cGWAE9IsLV1eXxAdTlNDb21wYXJpc29uUHJlZGljYXRlT3BlcmF0b3KjX2AxXxAdTlNDb21wYXJpc29uUHJlZGljYXRlT3BlcmF0b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0iwtYmNfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjYmQxW05TUHJlZGljYXRl1AsWFxgZZ2hpgBSAGoAWgBzVHh8gIQsiIyRtJoAGgAWAF4AN0hALcDWhcYAYgAzTCyA3ODl1gAuAGVlzdGFydERhdGXTSCALeEpLgBuAEdJNC3tPI0G8IkCQAAAAgBDVC1dYWVpbSilKKYAT0iwtQoCiQjHSLC2Cg18QE05TQ29tcG91bmRQcmVkaWNhdGWjgmQxXxAPTlNLZXllZEFyY2hpdmVy0YaHVHJvb3SAAQAIABEAGgAjAC0AMgA3AFkAXwBmAIAAkgCZAJsAnQCfAKQArwCyALQAtgC4AMEA1QDoAP4BAAECAQQBBgERARsBKgE9AUkBSwFNAU8BUQFTAWABZQFnAWkBbgF5AYIBlQGZAaYBrwG0AbYBuAG6AcEBywHNAc8B0QHZAd4B/QIBAgYCFQIZAiECJgI8AkECWAJfAnECcwJ1AncCfAKEAo0CjwKUApsCngKjAr8CwwLOAtkC4wLtAvwC/gMDAyMDJwNHA10DYgN6A34DigOTA5UDlwOZA5sDpgOoA6oDrAOuA7MDtQO3A7kDwAPCA8QDzgPVA9cD2QPeA+cD6QP0A/YD+wP+BAMEGQQdBC8EMgQ3AAAAAAAAAgEAAAAAAAAAiAAAAAAAAAAAAAAAAAAABDk=</filter>
 <!-- ANY assignedResources.name == "刘云鹏" -->
     <filter name="刘云鹏" flat="0" id="cX_8HboVNCE">YnBsaXN0MDDUAQIDBAUGa2xYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFwcIDxQcJicqMTU6Oz5CRktPU1ZeYmZoVSRudWxs0wkKCwwNDl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxACgAKAFtIQCxETWk5TLm9iamVjdHOhEoADgBXUCxUWFxgZGhtfEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBSADoAEgBLVHR4fIAshIiMkJVlOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADV8QEHZhbHVlRm9yS2V5UGF0aDrSHwsoKRABgAfSKywtLlokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMtLzBcTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMjShM4AJgAzTCx82Nzg5WU5TS2V5UGF0aIALEAqACl8QFmFzc2lnbmVkUmVzb3VyY2VzLm5hbWXSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEdILTE1OWU5TLnN0cmluZ4AQY1IYTpGeT9IrLFBRXxAPTlNNdXRhYmxlU3RyaW5no1BSMFhOU1N0cmluZ9IrLFRVXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNULzDVC1dYWVpbDFxJXVpOU01vZGlmaWVyWE5TTmVnYXRlWU5TT3B0aW9uc15OU09wZXJhdG9yVHlwZYATCBAE0issX2BfEBtOU0VxdWFsaXR5UHJlZGljYXRlT3BlcmF0b3KjX2EwXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLGNkXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2NlMFtOU1ByZWRpY2F0ZdIrLEFnokEw0issaWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2llMF8QD05TS2V5ZWRBcmNoaXZlctFtblRyb290gAEACAARABoAIwAtADIANwBRAFcAXgB4AIoAkQCTAJUAlwCcAKcAqQCrAK0AtgDKAN0A8wD1APcA+QD7AQYBEAEfATIBPgFAAUIBRAFGAUgBWwFgAWIBZAFpAXQBfQGQAZQBoQGqAa8BsQGzAbUBvAHGAcgBygHMAeUB6gIJAg0CEgIhAiUCLQIyAkgCTQJkAmsCfQJ/AoECgwKIApIClAKbAqACsgK2Ar8CxALgAuQC7wL6AwMDDQMcAx4DHwMhAyYDRANIA14DYwN7A38DiwOQA5MDmAOuA7IDxAPHA8wAAAAAAAACAQAAAAAAAABvAAAAAAAAAAAAAAAAAAADzg==</filter>
 <!-- completedPercentage == 100 -->
