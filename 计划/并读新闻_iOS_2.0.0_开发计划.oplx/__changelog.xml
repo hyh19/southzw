@@ -4,55 +4,13 @@
   <task-change-set user="Yuhui Huang" date="2015-12-15T10:14:14.323Z" timestamp="2015-12-15T10:14:14.323Z">
     <change idref="t95" attribute="internalEffortDone" type="real" from="16199.99903440475" to="43199.99742507935"/>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2015-12-17T01:58:48.380Z" timestamp="2015-12-17T01:58:48.380Z">
-    <change idref="t107" attribute="styleDict" type="dict" from="{
-    &quot;font-fill&quot; =     {
-        catalog = System;
-        name = textColor;
-    };
-}" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
+  <task-change-set user="Yuhui Huang" date="2015-12-21T02:16:43.758Z" timestamp="2015-12-21T02:16:43.758Z">
+    <change idref="t127" attribute="internalEffortDone" type="real" from="24300" to="27000" resolved="yes"/>
+    <change idref="t129" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
+    <change idref="t130" attribute="internalEffortDone" type="real" from="0" to="54000" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2015-12-17T02:02:18.604Z" timestamp="2015-12-17T02:02:18.604Z">
-    <change idref="t96" attribute="internalEffortDone" type="real" from="0" to="24299.99855160713" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2015-12-17T02:08:38.052Z" timestamp="2015-12-17T02:08:38.052Z">
-    <change idref="t82" attribute="internalEffortDone" type="real" from="0" to="13500" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2015-12-17T02:09:16.129Z" timestamp="2015-12-17T02:09:16.129Z">
-    <change idref="t126" attribute="internalEffortDone" type="real" from="0" to="21599.99871253967" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2015-12-17T02:10:08.180Z" timestamp="2015-12-17T02:10:08.180Z">
-    <change idref="t84" from="t73" from-position="2" to="t73" to-position="1" resolved="yes"/>
-    <change idref="t83" attribute="internalPrerequisitesString" type="string" from="82FS" to="84FS" resolved="yes"/>
-    <change idref="t84" attribute="internalPrerequisitesString" type="string" from="83FS" to="82FS" resolved="yes"/>
-    <change idref="t113" attribute="internalPrerequisitesString" type="string" from="84FS" to="83FS" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2015-12-18T02:05:08.836Z" timestamp="2015-12-18T02:05:08.836Z">
-    <change idref="t85" attribute="internalEffortDone" type="real" from="0" to="16199.99903440475" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2015-12-18T02:12:11.392Z" timestamp="2015-12-18T02:12:11.392Z">
-    <change idref="t61" attribute="internalEffortDone" type="real" from="0" to="54000" resolved="yes"/>
-    <change idref="t62" attribute="internalEffortDone" type="real" from="0" to="54000" resolved="yes"/>
-    <change idref="t82" attribute="internalEffortDone" type="real" from="13500" to="27000" resolved="yes"/>
-    <change idref="t83" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
-    <change idref="t122" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
-    <change idref="t126" attribute="internalEffortDone" type="real" from="21599.998046875" to="27000" resolved="yes"/>
-    <change idref="t127" attribute="internalEffortDone" type="real" from="0" to="24299.99935626984" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2015-12-18T02:13:49.801Z" timestamp="2015-12-18T02:13:49.801Z">
-    <change idref="t61" attribute="styleDict" type="dict" to="{
+  <task-change-set user="Yuhui Huang" date="2015-12-21T02:18:11.018Z" timestamp="2015-12-21T02:18:11.018Z">
+    <change idref="t127" attribute="styleDict" type="dict" to="{
     &quot;font-fill&quot; =     {
         b = 0;
         g = 0;
@@ -65,7 +23,7 @@
     };
     &quot;strikethrough-style&quot; = single;
 }" resolved="yes"/>
-    <change idref="t62" attribute="styleDict" type="dict" to="{
+    <change idref="t129" attribute="styleDict" type="dict" to="{
     &quot;font-fill&quot; =     {
         b = 0;
         g = 0;
@@ -78,7 +36,7 @@
     };
     &quot;strikethrough-style&quot; = single;
 }" resolved="yes"/>
-    <change idref="t82" attribute="styleDict" type="dict" to="{
+    <change idref="t130" attribute="styleDict" type="dict" to="{
     &quot;font-fill&quot; =     {
         b = 0;
         g = 0;
@@ -91,63 +49,5 @@
     };
     &quot;strikethrough-style&quot; = single;
 }" resolved="yes"/>
-    <change idref="t83" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-    <change idref="t122" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-    <change idref="t126" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2015-12-18T02:15:12.065Z" timestamp="2015-12-18T02:15:12.065Z">
-    <change idref="t96" attribute="internalEffortDone" type="real" from="24299.998046875" to="64799.99613761902" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2015-12-18T05:59:39.607Z" timestamp="2015-12-18T05:59:39.607Z">
-    <change idref="t96" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-    <change idref="t96" attribute="internalEffortDone" type="real" from="64799.99613761902" to="81000" resolved="yes"/>
   </task-change-set>
 </changelog>
