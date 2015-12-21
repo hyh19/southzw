@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1441" y="-1" w="1439" h="877">
+  <window x="1443" y="0" w="1440" h="877">
     <editing-scenario>cHqubXCdmW0</editing-scenario>
     <view>task</view>
-    <current-filter>ddTKYnxRg2t</current-filter>
     <change-tracking/>
     <status-display>extended</status-display>
     <task-view>
-      <split-view-divider-position>1101</split-view-divider-position>
-      <outline x="0" y="6" w="1101" h="745">
+      <split-view-divider-position>1134</split-view-divider-position>
+      <outline x="0" y="0" w="1134" h="766">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="305"/>
+        <column name="Title" width="326"/>
         <column name="Assigned" width="69"/>
         <column name="Time" width="61"/>
         <column name="Effort" width="61"/>
@@ -21,10 +20,9 @@
         <column name="%Done" width="82"/>
         <column name="Prerequisites" width="87"/>
         <column name="Dependents" width="80"/>
-        <expanded-items idrefs="t9 t88 t71 t102 t92 t55 t22 t89 t72 t56 t4 t23 t73 t65 t6 t90 t74 t66 t132 t7 t70 t8"/>
-        <selected-items-at-filter-time idrefs="t83 t96 t124 t71 t92 t84 t118 t55 t111 t89 t127 t105 t56 t4 t23 t125 t103 t73 t65 t119 t6 t90 t82 t106 t7 t95 t110 t126 t8 t104"/>
+        <expanded-items idrefs="t9 t88 t71 t102 t92 t55 t22 t89 t72 t56 t4 t23 t73 t65 t6 t90 t74 t132 t66 t7 t70 t8"/>
       </outline>
-      <gantt-view x="969" y="6" w="321" h="745">
+      <gantt-view x="225" y="0" w="289" h="766">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -62,7 +60,7 @@
         <scale scale-name="Minute" full-day-width="64800"/>
         <scale scale-name="Month" full-day-width="34.5"/>
         <scale scale-name="Quarter" full-day-width="9.6"/>
-        <scale scale-name="Week" full-day-width="120.624">
+        <scale scale-name="Week" full-day-width="31.9608">
           <selected/>
         </scale>
         <scale scale-name="Year" full-day-width="2.3625"/>

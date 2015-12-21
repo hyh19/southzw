@@ -183,14 +183,34 @@
   <task id="t61">
     <title>UIUX</title>
     <effort>54000</effort>
+    <effort-done>54000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r2"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t62">
     <title>业务逻辑</title>
     <effort>54000</effort>
+    <effort-done>54000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t122"/>
     <assignment idref="r2"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
@@ -285,15 +305,34 @@
   <task id="t82">
     <title>UIUX</title>
     <effort>27000</effort>
-    <effort-done>13500</effort-done>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r2"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t83">
     <title>业务逻辑</title>
     <effort>27000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t84"/>
     <assignment idref="r2"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
@@ -309,6 +348,7 @@
   <task id="t85">
     <title>UIUX</title>
     <effort>54000</effort>
+    <effort-done>16199.9990344048</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <assignment idref="r4"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
@@ -396,8 +436,17 @@
   <task id="t96">
     <title>业务逻辑</title>
     <effort>81000</effort>
-    <effort-done>24299.9985516071</effort-done>
+    <effort-done>81000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t95"/>
     <assignment idref="r1"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
@@ -656,7 +705,17 @@
   <task id="t122">
     <title>接口调试</title>
     <effort>27000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t61"/>
     <assignment idref="r2"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
@@ -694,14 +753,24 @@
   <task id="t126">
     <title>UIUX</title>
     <effort>27000</effort>
-    <effort-done>21599.9987125397</effort-done>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r3"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t127">
     <title>业务逻辑</title>
     <effort>27000</effort>
+    <effort-done>24299.9993562698</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t126"/>
     <assignment idref="r3"/>
