@@ -454,6 +454,7 @@
   <task id="t99">
     <title>测试周期</title>
     <effort>54000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -493,11 +494,16 @@
   <task id="t104">
     <title>测试周期</title>
     <effort>27000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t103"/>
     <assignment idref="r4"/>
@@ -523,11 +529,16 @@
   <task id="t106">
     <title>测试周期</title>
     <effort>27000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t105"/>
     <assignment idref="r4"/>
@@ -553,11 +564,16 @@
   <task id="t108">
     <title>测试周期</title>
     <effort>27000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t107"/>
     <assignment idref="r4"/>
@@ -878,7 +894,17 @@
   <task id="t135">
     <title>UIUX</title>
     <effort>27000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r3"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>

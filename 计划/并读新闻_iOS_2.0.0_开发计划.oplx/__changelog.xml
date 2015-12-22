@@ -50,4 +50,164 @@
     &quot;strikethrough-style&quot; = single;
 }" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-22T01:59:15.146Z" timestamp="2015-12-22T01:59:15.146Z">
+    <change idref="t104" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
+    <change idref="t106" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
+    <change idref="t108" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-22T02:04:21.537Z" timestamp="2015-12-22T02:04:21.537Z">
+    <change idref="t135" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t135" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-22T02:06:17.795Z" timestamp="2015-12-22T02:06:17.795Z">
+    <change idref="t104" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t106" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t108" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-22T02:08:44.800Z" timestamp="2015-12-22T02:08:44.800Z">
+    <change idref="t104" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t106" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t108" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-22T02:09:49.350Z" timestamp="2015-12-22T02:09:49.350Z">
+    <change idref="t99" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
+  </task-change-set>
 </changelog>
