@@ -50,4 +50,7 @@
   <task-change-set user="Yuhui Huang" date="2015-12-25T02:36:08.087Z" timestamp="2015-12-25T02:36:08.087Z">
     <change idref="t114" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-25T09:06:17.228Z" timestamp="2015-12-25T09:06:17.228Z">
+    <change idref="t150" attribute="internalAssignments" type="string" from="1" to="1; 3" resolved="yes"/>
+  </task-change-set>
 </changelog>
