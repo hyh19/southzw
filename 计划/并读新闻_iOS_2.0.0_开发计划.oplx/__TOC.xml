@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1446" y="-1" w="1440" h="877">
+  <window x="1442" y="0" w="1440" h="877">
     <editing-scenario>cHqubXCdmW0</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>extended</status-display>
     <task-view>
-      <split-view-divider-position>1179</split-view-divider-position>
-      <outline x="0" y="0" w="1179" h="766">
+      <split-view-divider-position>1071</split-view-divider-position>
+      <outline x="0" y="960" w="1071" h="766">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="429"/>
+        <column name="Title" width="304"/>
         <column name="Assigned" width="69"/>
         <column name="Time" width="61"/>
         <column name="Effort" width="61"/>
@@ -19,10 +19,10 @@
         <column name="Status" width="20"/>
         <column name="%Done" width="82"/>
         <column name="Prerequisites" width="87"/>
-        <column name="Dependents" width="80"/>
-        <expanded-items idrefs="t9 t88 t71 t102 t92 t55 t22 t89 t72 t56 t4 t23 t73 t65 t6 t90 t74 t132 t66 t7 t70 t8"/>
+        <column name="Dependents" width="82"/>
+        <expanded-items idrefs="t9 t88 t102 t71 t55 t92 t22 t89 t72 t56 t4 t23 t73 t65 t6 t90 t74 t132 t7 t66 t70 t8"/>
       </outline>
-      <gantt-view x="149" y="0" w="244" h="766">
+      <gantt-view x="411" y="960" w="352" h="766">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -60,7 +60,7 @@
         <scale scale-name="Minute" full-day-width="64800"/>
         <scale scale-name="Month" full-day-width="34.5"/>
         <scale scale-name="Quarter" full-day-width="9.6"/>
-        <scale scale-name="Week" full-day-width="23.209">
+        <scale scale-name="Week" full-day-width="53.1666">
           <selected/>
         </scale>
         <scale scale-name="Year" full-day-width="2.3625"/>

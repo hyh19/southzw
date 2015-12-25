@@ -290,7 +290,17 @@
   <task id="t75">
     <title>UIUX</title>
     <effort>54000</effort>
+    <effort-done>54000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r1"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
@@ -340,7 +350,17 @@
   <task id="t84">
     <title>接口调试</title>
     <effort>13500</effort>
+    <effort-done>13500</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t82"/>
     <assignment idref="r2"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
@@ -348,14 +368,24 @@
   <task id="t85">
     <title>UIUX</title>
     <effort>54000</effort>
-    <effort-done>16199.9990234375</effort-done>
+    <effort-done>54000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r4"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t86">
     <title>业务逻辑</title>
     <effort>54000</effort>
+    <effort-done>43199.99609375</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t87"/>
     <assignment idref="r4"/>
@@ -364,7 +394,17 @@
   <task id="t87">
     <title>接口调试</title>
     <effort>54000</effort>
+    <effort-done>54000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t85"/>
     <assignment idref="r4"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
@@ -454,7 +494,7 @@
   <task id="t99">
     <title>测试周期</title>
     <effort>54000</effort>
-    <effort-done>27000</effort-done>
+    <effort-done>48600</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -649,8 +689,9 @@
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t114">
-    <title>UIUX</title>
+    <title>UIUX、接口调试与业务逻辑</title>
     <effort>54000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <assignment idref="r2"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
@@ -940,6 +981,7 @@
   <task id="t150">
     <title>统一内部浏览器样式</title>
     <effort>54000</effort>
+    <effort-done>43199.9974250793</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t72"/>
     <assignment idref="r1"/>
