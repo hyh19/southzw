@@ -4,24 +4,6 @@
   <task-change-set user="Yuhui Huang" date="2015-12-15T10:14:14.323Z" timestamp="2015-12-15T10:14:14.323Z">
     <change idref="t95" attribute="internalEffortDone" type="real" from="16199.99903440475" to="43199.99742507935"/>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2015-12-24T01:53:38.589Z" timestamp="2015-12-24T01:53:38.589Z">
-    <change idref="t87" attribute="internalEffortDone" type="real" from="27000" to="54000" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2015-12-24T01:53:48.380Z" timestamp="2015-12-24T01:53:48.380Z">
-    <change idref="t87" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2015-12-25T02:12:02.904Z" timestamp="2015-12-25T02:12:02.904Z">
     <change idref="t75" attribute="internalEffortDone" type="real" from="0" to="54000" resolved="yes"/>
     <change idref="t86" attribute="internalEffortDone" type="real" from="0" to="43199.99742507935" resolved="yes"/>
@@ -52,5 +34,102 @@
   </task-change-set>
   <task-change-set user="Yuhui Huang" date="2015-12-25T09:06:17.228Z" timestamp="2015-12-25T09:06:17.228Z">
     <change idref="t150" attribute="internalAssignments" type="string" from="1" to="1; 3" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-26T08:11:12.915Z" timestamp="2015-12-26T08:11:12.915Z">
+    <change idref="t150" attribute="internalAssignments" type="string" from="1; 3" to="1" resolved="yes"/>
+    <change idref="t150" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t150" attribute="internalEffortDone" type="real" from="43199.99609375" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-26T08:13:09.118Z" timestamp="2015-12-26T08:13:09.118Z">
+    <change idref="t151" to="t4" to-position="14" resolved="yes">
+      <change idref="t151" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t151" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-25T16:00:00.000Z"/>
+      <change idref="t151" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t151" attribute="title" type="string" to="统一内部浏览器样式"/>
+    </change>
+    <change idref="t153" to="t151" to-position="0" resolved="yes">
+      <change idref="t153" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t153" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-25T16:00:00.000Z"/>
+      <change idref="t153" attribute="title" type="string" to="活动界面"/>
+    </change>
+    <change idref="t154" to="t151" to-position="1" resolved="yes">
+      <change idref="t154" attribute="internalAssignments" type="string" from="" to="3"/>
+      <change idref="t154" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-25T16:00:00.000Z"/>
+      <change idref="t154" attribute="title" type="string" to="原文界面"/>
+    </change>
+    <change idref="t155" to="t151" to-position="2" resolved="yes">
+      <change idref="t155" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t155" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-25T16:00:00.000Z"/>
+      <change idref="t155" attribute="title" type="string" to="广告界面"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-26T08:13:11.597Z" timestamp="2015-12-26T08:13:11.597Z">
+    <change idref="t150" from="t4" from-position="13" resolved="yes">
+      <change idref="t150" attribute="effort" type="real" from="28800" to="54000"/>
+      <change idref="t150" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t150" attribute="internalEffortDone" type="real" from="0" to="54000"/>
+      <change idref="t150" attribute="internalPrerequisitesString" type="string" to="72FS"/>
+      <change idref="t150" attribute="noEarlierThanConstraintDate" type="date" to="2015-12-10T01:00:00.000Z"/>
+      <change idref="t150" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}"/>
+      <change idref="t150" attribute="title" type="string" to="统一内部浏览器样式"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-26T08:13:48.162Z" timestamp="2015-12-26T08:13:48.162Z">
+    <change idref="t153" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+    <change idref="t153" attribute="internalPrerequisitesString" type="string" to="93FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-26T08:13:59.497Z" timestamp="2015-12-26T08:13:59.497Z">
+    <change idref="t153" attribute="internalEffortDone" type="real" from="0" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-26T08:14:15.311Z" timestamp="2015-12-26T08:14:15.311Z">
+    <change idref="t154" attribute="internalPrerequisitesString" type="string" to="134FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-26T08:14:20.179Z" timestamp="2015-12-26T08:14:20.179Z">
+    <change idref="t154" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-26T08:14:33.003Z" timestamp="2015-12-26T08:14:33.003Z">
+    <change idref="t155" attribute="effort" type="real" from="28800" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-26T08:15:15.881Z" timestamp="2015-12-26T08:15:15.881Z">
+    <change idref="t155" attribute="internalPrerequisitesString" type="string" to="121FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2015-12-26T08:15:34.991Z" timestamp="2015-12-26T08:15:34.991Z">
+    <change idref="t153" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
   </task-change-set>
 </changelog>

@@ -119,7 +119,7 @@
     <child-task idref="t88"/>
     <child-task idref="t102"/>
     <child-task idref="t132"/>
-    <child-task idref="t150"/>
+    <child-task idref="t151"/>
   </task>
   <task id="t6">
     <title>系统设置</title>
@@ -978,15 +978,48 @@
     <assignment idref="r3"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t150">
+  <task id="t151">
     <title>统一内部浏览器样式</title>
-    <effort>54000</effort>
-    <effort-done>43199.9974250793</effort-done>
-    <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t72"/>
+    <type>group</type>
+    <start-constraint-date>2015-12-25T16:00:00.000Z</start-constraint-date>
+    <child-task idref="t153"/>
+    <child-task idref="t154"/>
+    <child-task idref="t155"/>
+    <start-no-earlier-than>2015-12-25T16:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t153">
+    <title>活动界面</title>
+    <effort>27000</effort>
+    <effort-done>27000</effort-done>
+    <start-constraint-date>2015-12-25T16:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <prerequisite-task idref="t93"/>
     <assignment idref="r1"/>
+    <start-no-earlier-than>2015-12-25T16:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t154">
+    <title>原文界面</title>
+    <effort>27000</effort>
+    <start-constraint-date>2015-12-25T16:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t134"/>
     <assignment idref="r3"/>
-    <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2015-12-25T16:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t155">
+    <title>广告界面</title>
+    <effort>27000</effort>
+    <start-constraint-date>2015-12-25T16:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t121"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2015-12-25T16:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
