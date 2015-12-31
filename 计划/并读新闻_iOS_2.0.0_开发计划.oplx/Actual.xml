@@ -266,7 +266,7 @@
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t73">
-    <title>分类标签列表</title>
+    <title>频道分类列表</title>
     <type>group</type>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <child-task idref="t82"/>
@@ -277,7 +277,7 @@
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t74">
-    <title>标签文章列表</title>
+    <title>分类文章列表</title>
     <type>group</type>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <child-task idref="t85"/>
@@ -307,6 +307,7 @@
   <task id="t77">
     <title>接口调试与业务逻辑</title>
     <effort>81000</effort>
+    <effort-done>64799.99609375</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t75"/>
     <assignment idref="r1"/>
@@ -385,8 +386,17 @@
   <task id="t86">
     <title>业务逻辑</title>
     <effort>54000</effort>
-    <effort-done>43199.99609375</effort-done>
+    <effort-done>54000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t87"/>
     <assignment idref="r4"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
@@ -413,8 +423,8 @@
     <title>新的启动引导页</title>
     <type>group</type>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
-    <child-task idref="t114"/>
     <child-task idref="t115"/>
+    <child-task idref="t114"/>
     <prerequisite-task idref="t22"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
@@ -494,12 +504,16 @@
   <task id="t99">
     <title>测试周期</title>
     <effort>54000</effort>
-    <effort-done>48600</effort-done>
+    <effort-done>54000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t96"/>
     <assignment idref="r1"/>
@@ -622,11 +636,16 @@
   <task id="t109">
     <title>测试周期</title>
     <effort>54000</effort>
+    <effort-done>54000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t86"/>
     <assignment idref="r4"/>
@@ -652,11 +671,16 @@
   <task id="t111">
     <title>测试周期</title>
     <effort>0</effort>
+    <effort-done>1</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t110"/>
     <assignment idref="r2"/>
@@ -665,11 +689,16 @@
   <task id="t112">
     <title>测试周期</title>
     <effort>0</effort>
+    <effort-done>1</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t62"/>
     <assignment idref="r2"/>
@@ -678,11 +707,16 @@
   <task id="t113">
     <title>测试周期</title>
     <effort>13500</effort>
+    <effort-done>13500</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t83"/>
     <assignment idref="r2"/>
@@ -691,14 +725,24 @@
   <task id="t114">
     <title>UIUX、接口调试与业务逻辑</title>
     <effort>54000</effort>
-    <effort-done>27000</effort-done>
+    <effort-done>54000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r2"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t115">
     <title>测试周期</title>
     <effort>0</effort>
+    <effort-done>0.799999952316284</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -729,11 +773,16 @@
   <task id="t119">
     <title>测试周期</title>
     <effort>0</effort>
+    <effort-done>1</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t118"/>
     <assignment idref="r2"/>
@@ -742,18 +791,33 @@
   <task id="t120">
     <title>UIUX</title>
     <effort>54000</effort>
+    <effort-done>54000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r2"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t121">
     <title>测试周期</title>
     <effort>13500</effort>
+    <effort-done>13500</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t120"/>
     <assignment idref="r2"/>
@@ -797,11 +861,16 @@
   <task id="t125">
     <title>测试周期</title>
     <effort>0</effort>
+    <effort-done>1</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t124"/>
     <assignment idref="r3"/>
@@ -845,11 +914,16 @@
   <task id="t128">
     <title>测试周期</title>
     <effort>27000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t127"/>
     <assignment idref="r3"/>
@@ -893,11 +967,16 @@
   <task id="t131">
     <title>测试周期</title>
     <effort>27000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t130"/>
     <assignment idref="r3"/>
@@ -915,18 +994,33 @@
   <task id="t133">
     <title>接口调试</title>
     <effort>13500</effort>
+    <effort-done>13500</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r3"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t134">
     <title>测试周期</title>
     <effort>0</effort>
+    <effort-done>1</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t133"/>
     <assignment idref="r3"/>
@@ -952,7 +1046,17 @@
   <task id="t136">
     <title>业务逻辑</title>
     <effort>67500</effort>
+    <effort-done>67500</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t144"/>
     <assignment idref="r3"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
@@ -960,11 +1064,16 @@
   <task id="t137">
     <title>测试周期</title>
     <effort>0</effort>
+    <effort-done>1</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0" b="1"/>
       </value>
+      <value key="strikethrough-color">
+        <color r="0" g="0" b="1"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t136"/>
     <assignment idref="r3"/>
@@ -973,7 +1082,17 @@
   <task id="t144">
     <title>接口调试</title>
     <effort>27000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t135"/>
     <assignment idref="r3"/>
     <start-no-earlier-than>2015-12-10T01:00:00.000Z</start-no-earlier-than>
@@ -1008,7 +1127,17 @@
   <task id="t154">
     <title>原文界面</title>
     <effort>27000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-25T16:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t134"/>
     <assignment idref="r3"/>
     <start-no-earlier-than>2015-12-25T16:00:00.000Z</start-no-earlier-than>
@@ -1016,7 +1145,17 @@
   <task id="t155">
     <title>广告界面</title>
     <effort>27000</effort>
+    <effort-done>27000</effort-done>
     <start-constraint-date>2015-12-25T16:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t121"/>
     <assignment idref="r2"/>
     <start-no-earlier-than>2015-12-25T16:00:00.000Z</start-no-earlier-than>
